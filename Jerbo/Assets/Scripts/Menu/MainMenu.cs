@@ -8,13 +8,13 @@ public class MainMenu : MonoBehaviour
     //Funcion para entrar a MapaMundo
     public void StartGame() 
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     //Funcion para entrar a los Creditos
     public void Credits()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     //Funcion para quitar el juego
