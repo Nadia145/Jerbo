@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/*Nadia*/
 public class MainMenu : MonoBehaviour
 {
     //Funcion para entrar a MapaMundo
