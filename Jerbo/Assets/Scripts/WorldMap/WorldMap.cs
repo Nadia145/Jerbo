@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 /*Omar*/
 public class WorldMap : MonoBehaviour
 {
-    //funcion para regresar al menu principál
+    //funcion para regresar al menu principl
     public void Back()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex/*Index de MainMenu*/);
+        SceneManager.LoadScene(1/*Index de MainMenu*/);
     }
     /*Funcion q regresa inicia animaciones*/
     public void Z_0()
@@ -18,16 +18,16 @@ public class WorldMap : MonoBehaviour
     //Funcion que inicia el nivel 1
     public void Z_1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex/*Index de escena de la zona 1(Primer nivel)*/);
+        SceneManager.LoadScene(4/*Index de escena de la zona 1(Primer nivel)*/);
     }
     //Funcion que inicia el nivel 2
     public void Z_2()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex/*Index de escena de la zona 2(segundo nivel)*/);
+        SceneManager.LoadScene(5/*Index de escena de la zona 2(segundo nivel)*/);
     }
     //Funcion que inicia el nivel 3
     public void Z_3()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex/*Index de escena de la zona 3(Tercer nivel)*/);
+        SceneManager.LoadScene(6/*Index de escena de la zona 3(Tercer nivel)*/);
     }
 }
