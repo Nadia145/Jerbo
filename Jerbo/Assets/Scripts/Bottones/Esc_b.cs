@@ -9,10 +9,6 @@ public class Esc_b : MonoBehaviour
     [SerializeField]
     private bool gameRunning;
     // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -27,6 +23,11 @@ public class Esc_b : MonoBehaviour
             Debug.Log("GameRunning");
         }else{
             Debug.Log("Game Paused");
+
         }
+    }
+    public bool IsgameRunning()
+    {
+        return gameRunning;
     }
 }
