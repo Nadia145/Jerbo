@@ -41,7 +41,7 @@ public class Web : MonoBehaviour
         }
     }
 
-    public IEnumerator RegisterUser(string username, string password, string date)
+    public IEnumerator RegisterUser(string username, string password)
     {
         WWWForm form = new WWWForm();
         form.AddField("loginUser", username);
