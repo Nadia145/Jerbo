@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Globalization;
 using System;
+using UnityEngine.Networking;
 
 public class web : MonoBehaviour
 {
@@ -14,11 +15,10 @@ public class web : MonoBehaviour
         
     }
 
-    public IEnumerator RegisterUser(string username, string password, string time)
+    public IEnumerator RegisterUser(string username, string password)
     {
         DateTime fecha = DateTime.Now;
         WWWForm form = new WWWForm();
-        form.AddField("fecha", fecha.ToString());
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
         //protejer variables
