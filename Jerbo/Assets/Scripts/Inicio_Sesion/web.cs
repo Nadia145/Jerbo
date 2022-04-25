@@ -47,7 +47,7 @@ public class Web : MonoBehaviour
         form.AddField("loginUser", username);
         form.AddField("loginPass", password);
         //protejer variables
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityBackendTutorial/registerUser.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityJerbo/Register.php", form))
         {
             yield return www.SendWebRequest();
 
