@@ -1,33 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
+/*Omar y Nad*/
 
 public class Esc_b : MonoBehaviour
 {
-    [SerializeField]
-    private bool gameRunning;
-    // Start is called before the first frame update
-    // Update is called once per frame
+    public static bool gamePaused = false;
+    public GameObject pauseMenuUI;
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            ChangeGameRunningState();
+            if (gamePaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
     }
-    public void ChangeGameRunningState(){
-        gameRunning=!gameRunning;
-        if(gameRunning){
-            Debug.Log("GameRunning");
-        }else{
-            Debug.Log("Game Paused");
 
-        }
-    }
-    public bool IsgameRunning()
+    public void Resume() 
     {
-        return gameRunning;
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        gamePaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        gamePaused = true;
     }
 }

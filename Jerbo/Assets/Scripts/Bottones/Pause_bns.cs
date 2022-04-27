@@ -14,7 +14,9 @@ public class Pause_bns : MonoBehaviour
     {
         SceneManager.LoadScene(2/*Index de MainMenu*/);
     }
-    public void Continue()
+
+    //Hay que modificar este de aqui 
+    public void Continue() 
     {
         SceneManager.LoadScene(3/*Index de MainMenu*/);
     }
