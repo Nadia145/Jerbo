@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb2D;
 
-    private float velocidadMovimiento;
-    private float fuerzaSalto;
+    public float velocidadMovimiento;
+    public float fuerzaSalto;
     private bool estaSaltando;
     private float movimientoHorizontal;
     private float movimientoVertical;
@@ -16,8 +16,6 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
 
-        velocidadMovimiento = 3f;
-        fuerzaSalto = 60f;
         estaSaltando = false;
     }
 
@@ -29,6 +27,26 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        if (movimientoHorizontal > 0.1f || movimientoHorizontal < -0.1f) 
+        {
+            rb2D.AddForce(new Vector2(movimientoHorizontal * velocidadMovimiento, 0f), ForceMode2D.Impulse);
+        }
+        if (!estaSaltando && movimientoVertical > 0.1f)
+        {
+            rb2D.AddForce(new Vector2(0f, movimientoVertical * fuerzaSalto), ForceMode2D.Impulse);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Platform") 
+        {
+            estaSaltando = false;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        estaSaltando = true;
     }
 }
