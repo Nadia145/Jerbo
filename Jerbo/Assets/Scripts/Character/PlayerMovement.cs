@@ -43,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
         {
             estaSaltando = false;
         }
+        if (collision.gameObject.CompareTag("Headphones"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     void OnTriggerExit2D(Collider2D collision)
