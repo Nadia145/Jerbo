@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movimientoHorizontal = Input.GetAxisRaw("Horizontal");
-        movimientoVertical = Input.GetAxisRaw("Vertical");
+        movimientoVertical = Input.GetAxisRaw("Jump"/*Omi esta linea*/);
     }
 
     private void FixedUpdate()
