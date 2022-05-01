@@ -13,8 +13,6 @@ public class Omar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = player.position - transform.position;
-        Debug.Log(direction);
 
 
     }
