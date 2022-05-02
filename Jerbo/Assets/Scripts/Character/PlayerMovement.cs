@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2D;
 
     [Header("Layer Masks")]
-    private LayerMask capaTierra;
+    [SerializeField] private LayerMask capaTierra;
 
     [Header("Variables Caminar")]
     [SerializeField] private float movimientoAceleracion;
@@ -20,8 +20,12 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Variables Salto")]
     [SerializeField] private float fuerzaSalto = 12f;
-    public float multiplicadorCaida = 2.5f;
-    public float multiplicadorSaltoBajo = 2f;
+    [SerializeField] private float aireLinearDrag = 2.5f;
+    [SerializeField] private float multiplicadorCaida = 8f;
+    [SerializeField] private float multiplicadorCaidaSaltoBajo = 5f;
+    [SerializeField] private int saltosExtra = 1;
+    private int valorSaltosExtra;
+    private bool puedeSaltar => Input.GetButtonDown("Jump"/*Omi esta linea*/) && (tocandoTierra || valorSaltosExtra > 0);
 
     [Header("Variables Colisiones Tierra")]
     [SerializeField] private float longitudRaycastTierra;
@@ -35,15 +39,25 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movimientoHorizontal = ObtenerInput().x;
-        if (Input.GetButtonDown("Jump"/*Omi esta linea*/))
-            Saltando();
+        if (puedeSaltar)
+            SaltoPersonaje();
     }
 
     //Aqui empiezan las funciones para el movimiento del personaje
     private void FixedUpdate()
     {
+        ChecarColisiones();
         MovimientoPersonaje();
-        AplicarLinearDrag();
+        if (tocandoTierra)
+        {
+            valorSaltosExtra = saltosExtra;
+            AplicarTierraLinearDrag();
+        }
+        else 
+        {
+            AplicarAireLinearDrag();
+            MultiplicadorCaida();
+        }
     }
 
     private Vector2 ObtenerInput()
@@ -61,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void AplicarLinearDrag() 
+    private void AplicarTierraLinearDrag() 
     {
         if (Mathf.Abs(movimientoHorizontal) < 0.4f || cambiarDireccion)
         {
@@ -72,20 +86,50 @@ public class PlayerMovement : MonoBehaviour
             rb2D.drag = 0f;  
         }
     }
+
+    private void AplicarAireLinearDrag()
+    {
+        rb2D.drag = aireLinearDrag;
+    }
+
+
     //Aqui terminan las funciones para el movimiento del personaje
 
 
 
-    //EAqui empiezan las funciones para el salto del personaje
-    private void Saltando()
+    //Aqui empiezan las funciones para el salto del personaje
+    private void SaltoPersonaje()
     {
+        if (!tocandoTierra)
+            saltosExtra--;
         rb2D.velocity = new Vector2(rb2D.velocity.x, 0f);
         rb2D.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
     }
 
-    private void checarColisiones() 
+    private void MultiplicadorCaida() 
+    {
+        if (rb2D.velocity.y < 0)
+        {
+            rb2D.gravityScale = multiplicadorCaida;
+        }
+        else if (rb2D.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            rb2D.gravityScale = multiplicadorCaidaSaltoBajo;
+        }
+        else
+        {
+            rb2D.gravityScale = 1f;
+        }
+    }
+
+    private void ChecarColisiones() 
     {
         tocandoTierra = Physics2D.Raycast(transform.position * longitudRaycastTierra, Vector2.down, longitudRaycastTierra, capaTierra);
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * longitudRaycastTierra);
     }
     //Aqui terminan las funciones para el salto del personaje
 
