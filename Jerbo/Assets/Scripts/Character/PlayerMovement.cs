@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Componentes")]
     private Rigidbody2D rb2D;
+    public Animator animatorPersonaje;
 
     [Header("Layer Masks")]
     [SerializeField] private LayerMask capaTierra;
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maximaVelocidadMovimiento;
     [SerializeField] private float linearDrag;
     private float movimientoHorizontal;
+    private bool mirandoDerecha = true;
     private bool cambiarDireccion => (rb2D.velocity.x > 0f && movimientoHorizontal < 0f) || (rb2D.velocity.x < 0f && movimientoHorizontal > 0f);
 
     [Header("Variables Salto")]
@@ -38,9 +40,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //Movimiento
         movimientoHorizontal = ObtenerInput().x;
         if (puedeSaltar)
             SaltoPersonaje();
+
+        //Animaciones
+        animatorPersonaje.SetFloat("VelocidadPersonaje", Mathf.Abs(movimientoHorizontal));
     }
 
     //Aqui empiezan las funciones para el movimiento del personaje
@@ -73,6 +79,15 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2D.velocity = new Vector2(Mathf.Sign(rb2D.velocity.x) * maximaVelocidadMovimiento, rb2D.velocity.y);
         }
+
+        if (movimientoHorizontal > 0 && !mirandoDerecha)
+        {
+            Flip();
+        }
+        else if (movimientoHorizontal < 0 && mirandoDerecha) 
+        {
+            Flip();
+        }
     }
 
     private void AplicarTierraLinearDrag() 
@@ -92,7 +107,14 @@ public class PlayerMovement : MonoBehaviour
         rb2D.drag = aireLinearDrag;
     }
 
+    private void Flip() 
+    {
+        mirandoDerecha = !mirandoDerecha;
 
+        Vector2 laEscala = transform.localScale;
+        laEscala.x *= -1;
+        transform.localScale = laEscala;
+    }
     //Aqui terminan las funciones para el movimiento del personaje
 
 
