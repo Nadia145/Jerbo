@@ -43,7 +43,14 @@ public class PlayerMovement : MonoBehaviour
         //Movimiento
         movimientoHorizontal = ObtenerInput().x;
         if (puedeSaltar)
+        {
+            animatorPersonaje.SetBool("EstaSaltando", true);
             SaltoPersonaje();
+        }
+        else if (!puedeSaltar)
+        {
+            animatorPersonaje.SetBool("EstaSaltando", false);
+        }
 
         //Animaciones
         animatorPersonaje.SetFloat("VelocidadPersonaje", Mathf.Abs(movimientoHorizontal));
