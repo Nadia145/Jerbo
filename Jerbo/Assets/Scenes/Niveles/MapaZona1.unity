@@ -3790,7 +3790,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c4fc14979a16f694f977afa33e4e5e4b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -3813,7 +3813,7 @@ MonoBehaviour:
   movimientoAceleracion: 50
   maximaVelocidadMovimiento: 12
   linearDrag: 10
-  fuerzaSalto: 10
+  fuerzaSalto: 20
   aireLinearDrag: 2.5
   multiplicadorCaida: 8
   multiplicadorCaidaSaltoBajo: 5
