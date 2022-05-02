@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class NinoRaro : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int health;
+    public float speed;
+
+    public GameObject BloodEffect;
+
+    public bool FindPlayer;
+
+    public Animator enemyAnim;
+
+    // Use this for initialization
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+
+    
     }
 }
