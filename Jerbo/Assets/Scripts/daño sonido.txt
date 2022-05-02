@@ -8,6 +8,7 @@ void OnCollisionEnter(Collision hit){
              c.transform.SendMessage("ReceiveDamage", damage*ratio);
              c.transform.GetComponent<Rigidbody>().AddExplosionForce(explosionPower*ratio, 
              c.transform.position, explosionRadius, 30.0F, ForceMode.VelocityChange);
+             hOLA
          }
      }
  }
