@@ -54,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
 
         //Animaciones
         animatorPersonaje.SetFloat("VelocidadPersonaje", Mathf.Abs(movimientoHorizontal));
+
+        //Slide
     }
 
     //Aqui empiezan las funciones para el movimiento del personaje
