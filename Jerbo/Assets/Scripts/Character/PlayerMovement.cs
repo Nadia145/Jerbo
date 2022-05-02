@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 /*Nad y Pablo*/
 
 public class PlayerMovement : MonoBehaviour
@@ -166,11 +167,19 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    //Aqui empiezan las funciones para el cambio de escena
+    public void CambioEscena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    //Aqui terminan las funciones para el cambio de escena
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Headphones"))
         {
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("Meta"))
+            CambioEscena();
     }
 }
