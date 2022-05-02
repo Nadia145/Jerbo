@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Headphones
+  - Meta
   layers:
   - Default
   - TransparentFX
