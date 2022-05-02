@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 73972214}
   - component: {fileID: 73972213}
   - component: {fileID: 73972215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -3807,13 +3807,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c81df2f4bfc2f4dba83a4b03f05056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMovimiento: 5
-  fuerzaSalto: 10
-  multiplicadorCaida: 2.5
-  multiplicadorSaltoBajo: 2
+  capaTierra:
+    serializedVersion: 2
+    m_Bits: 256
   movimientoAceleracion: 50
   maximaVelocidadMovimiento: 12
   linearDrag: 10
+  fuerzaSalto: 10
+  longitudRaycastTierra: 0.8
 --- !u!61 &483010734
 BoxCollider2D:
   m_ObjectHideFlags: 0
