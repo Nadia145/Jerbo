@@ -50,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 anguloSaltoPared;
 
     [Header("Variables de estadistica")]
-    [SerializeField] float HP;
     [SerializeField] int Headphones;
 
     [Header("Variables de respawn")]
@@ -63,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
         anguloSaltoPared.Normalize();
 
         //Coleccionables
-        HP = GlobalControl.Instance.HP;
         Headphones = GlobalControl.Instance.Headphones;
 
         //Punto de Respawn
@@ -289,7 +287,6 @@ public class PlayerMovement : MonoBehaviour
     //Funcion para guardar estadisticas
     public void SavePlayer()
     {
-        GlobalControl.Instance.HP = HP;
         GlobalControl.Instance.Headphones = Headphones;
     }
 
