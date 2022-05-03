@@ -1128,7 +1128,7 @@ GameObject:
   - component: {fileID: 405671084}
   - component: {fileID: 405671083}
   m_Layer: 0
-  m_Name: escuela_primaria_rural_mexico_01
+  m_Name: Papel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1193,11 +1193,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405671082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.0122, y: 3.9108, z: 0}
-  m_LocalScale: {x: 1.4645882, y: 1.2723114, z: 1}
+  m_LocalPosition: {x: 19.753832, y: -3.7377782, z: 5.6242213}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 579940561}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &425625390
 PrefabInstance:
@@ -1381,7 +1381,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -8, y: -0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1523496978}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1438,6 +1439,9 @@ MonoBehaviour:
   capaTierra:
     serializedVersion: 2
     m_Bits: 256
+  capaPared:
+    serializedVersion: 2
+    m_Bits: 512
   movimientoAceleracion: 25
   maximaVelocidadMovimiento: 6
   linearDrag: 10
@@ -1447,6 +1451,12 @@ MonoBehaviour:
   multiplicadorCaidaSaltoBajo: 5
   saltosExtra: 1
   longitudRaycastTierra: 0.8
+  velocidadSlidePared: 0
+  checarPuntoPared: {fileID: 1523496978}
+  checarTamanoPared: {x: 0.1, y: 0.5}
+  fuerzaSaltoPared: 0
+  anguloSaltoPared: {x: 0, y: 0}
+  direccionSaltoPared: -1
 --- !u!61 &483010734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1633,6 +1643,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7530711594594945970, guid: 8b1193b4f885af04786b1d9cb8f61aa0, type: 3}
   m_PrefabInstance: {fileID: 318730632}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &579940560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579940561}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579940561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579940560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.753832, y: 3.7377782, z: -5.6242213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 405671084}
+  - {fileID: 1829706178}
+  - {fileID: 1431166119}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &596025337 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7530711594594945969, guid: 8b1193b4f885af04786b1d9cb8f61aa0, type: 3}
@@ -6359,7 +6402,7 @@ GameObject:
   - component: {fileID: 1431166119}
   - component: {fileID: 1431166118}
   m_Layer: 0
-  m_Name: external-content.duckduckgo.com
+  m_Name: Libros
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6423,12 +6466,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431166117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.233353, y: 0.32183254, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.4795208, y: -3.4159455, z: 5.6242213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 579940561}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1441488584
 PrefabInstance:
@@ -6700,6 +6743,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HDValue: 1
+--- !u!1 &1523496977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1523496978}
+  m_Layer: 0
+  m_Name: ChecarPared
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1523496978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523496977}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -0.4, y: 0.006000042, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 483010730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1543952108
 GameObject:
   m_ObjectHideFlags: 0
@@ -6711,7 +6784,8 @@ GameObject:
   - component: {fileID: 1543952109}
   - component: {fileID: 1543952111}
   - component: {fileID: 1543952110}
-  m_Layer: 0
+  - component: {fileID: 1543952112}
+  m_Layer: 9
   m_Name: Pared =3=
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7442,6 +7516,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1543952112
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543952108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &1558058677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8169,7 +8259,7 @@ GameObject:
   - component: {fileID: 1829706178}
   - component: {fileID: 1829706177}
   m_Layer: 0
-  m_Name: external-content.duckduckgo.com2
+  m_Name: Escuela
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8233,12 +8323,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829706176}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.47, y: -0.94, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.7161684, y: -4.6777782, z: 5.6242213}
   m_LocalScale: {x: 2.175525, y: 2.1745381, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 579940561}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837403719 stripped
 GameObject:
@@ -8445,7 +8535,7 @@ Transform:
   - {fileID: 1284016205}
   - {fileID: 1543952109}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1915814371 stripped
 GameObject:
@@ -9072,7 +9162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3905957323851247858, guid: e2b2583bd0b654f42885d8306d38261b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3905957323851247858, guid: e2b2583bd0b654f42885d8306d38261b, type: 3}
       propertyPath: m_AnchorMax.x

@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Layer Masks")]
     [SerializeField] private LayerMask capaTierra;
+    [SerializeField] private LayerMask capaPared;
 
     [Header("Variables Caminar")]
     [SerializeField] private float movimientoAceleracion;
@@ -34,9 +35,23 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float longitudRaycastTierra;
     private bool tocandoTierra;
 
+    [Header("Variables Sliding Pared")]
+    [SerializeField] private float velocidadSlidePared;
+    [SerializeField] Transform checarPuntoPared;
+    [SerializeField] Vector2 checarTamanoPared;
+    private bool estaTocandoPared;
+    private bool estaDeslizandose;
+
+    [Header("Variables Salto Pared")]
+    [SerializeField] private float fuerzaSaltoPared;
+    [SerializeField] Vector2 anguloSaltoPared;
+    [SerializeField] float direccionSaltoPared = -1;
+
+
     private void Start()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
+        anguloSaltoPared.Normalize();
     }
 
     void Update()
@@ -57,6 +72,8 @@ public class PlayerMovement : MonoBehaviour
         animatorPersonaje.SetFloat("VelocidadPersonaje", Mathf.Abs(movimientoHorizontal));
 
         //Slide
+        SlidePared();
+        SaltoPared();
     }
 
     //Aqui empiezan las funciones para el movimiento del personaje
@@ -121,6 +138,11 @@ public class PlayerMovement : MonoBehaviour
     {
         mirandoDerecha = !mirandoDerecha;
 
+        if (!estaDeslizandose)
+        {
+            direccionSaltoPared += -1;
+        }
+
         Vector2 laEscala = transform.localScale;
         laEscala.x *= -1;
         transform.localScale = laEscala;
@@ -157,6 +179,7 @@ public class PlayerMovement : MonoBehaviour
     private void ChecarColisiones() 
     {
         tocandoTierra = Physics2D.Raycast(transform.position * longitudRaycastTierra, Vector2.down, longitudRaycastTierra, capaTierra);
+        estaTocandoPared = Physics2D.OverlapBox(checarPuntoPared.position, checarTamanoPared, 0, capaPared);
     }
     private void OnDrawGizmos()
     {
@@ -167,12 +190,48 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    //Aqui empiezan las funciones para el salto en la pared
+    void SlidePared()
+    {
+        if (estaTocandoPared && !tocandoTierra && rb2D.velocity.y < 0)
+        {
+            estaDeslizandose = true;
+        }
+        else
+        {
+            estaDeslizandose = false;
+        }
+        if (estaDeslizandose)
+        {
+            rb2D.velocity = new Vector2(rb2D.velocity.x, -velocidadSlidePared);
+        }
+    }
+    void SaltoPared()
+    {
+        if (estaDeslizandose && puedeSaltar)
+        {
+            rb2D.AddForce(new Vector2(fuerzaSaltoPared * anguloSaltoPared.x * direccionSaltoPared, fuerzaSaltoPared * anguloSaltoPared.y), ForceMode2D.Impulse);
+            Flip();
+        }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawCube(checarPuntoPared.position, checarTamanoPared);
+    }
+    //Aqui terminan las funciones para el salto en la pared
+
+
+
     //Aqui empiezan las funciones para el cambio de escena
     public void CambioEscena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     //Aqui terminan las funciones para el cambio de escena
+
+
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Headphones"))
