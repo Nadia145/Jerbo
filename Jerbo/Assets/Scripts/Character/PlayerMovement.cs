@@ -143,8 +143,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Agachado = true;
         }
-
-        else if (!Input.GetKeyDown(KeyCode.S))
+        else
         {
             Agachado = false;
         }
