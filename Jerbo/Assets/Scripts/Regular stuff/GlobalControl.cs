@@ -5,27 +5,12 @@ using UnityEngine.UI;
 
 public class GlobalControl : MonoBehaviour
 {
-    public int Health;
+    public int HealthMax = 8;
+    public static int PlayerHealth = 8;
     public int Headphones;
     public static GlobalControl Instance;
     public GameObject Jerbo1, Jerbo2, Jerbo3, Jerbo4;
 
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            DontDestroyOnLoad(Jerbo1);
-            DontDestroyOnLoad(Jerbo2);
-            DontDestroyOnLoad(Jerbo3);
-            DontDestroyOnLoad(Jerbo4);
-            Instance = this;
-        }
-        else if (Instance != this)
-        {
-            Destroy(gameObject);
-        }
-    }
 
     public void ChangeScore(int score)
     {
@@ -34,24 +19,19 @@ public class GlobalControl : MonoBehaviour
 
     void Start()
     {
-        Health = 8;
-        Jerbo1.gameObject.SetActive(true);
-        Jerbo2.gameObject.SetActive(false);
-        Jerbo3.gameObject.SetActive(false);
-        Jerbo4.gameObject.SetActive(false);
     }
 
-    public void ChangeHealth(int damage)
+    public static void ChangeHealth(int damage)
     {
-        Health = Health - damage;
+        PlayerHealth = PlayerHealth - damage;
     }
 
     void Update() {
 
-        if (Health > 8)
-            Health = 8;
+        if (PlayerHealth > 8)
+            PlayerHealth = 8;
 
-        switch (Health) {
+        switch (PlayerHealth) {
 
             case 8:
                 Jerbo1.gameObject.SetActive(true);

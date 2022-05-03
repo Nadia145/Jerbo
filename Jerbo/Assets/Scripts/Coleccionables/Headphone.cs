@@ -13,7 +13,6 @@ public class Headphone : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             ScoreManager.instance.ChangeScore(HDValue);
-            GlobalControl.Instance.ChangeScore(HDValue);
         }
     }
 }

@@ -28,10 +28,12 @@ public class NinoRaro : MonoBehaviour
             else
             {
                 Aaaaa.Play();
-                GlobalControl.Instance.ChangeHealth(1);
                 TimeforScream = 10;
                 Screamisgoing = true;
-            
+                if (PlayerMovement.Agachado == false) {
+                    GlobalControl.ChangeHealth(1);
+                }
+           
             }
         
         

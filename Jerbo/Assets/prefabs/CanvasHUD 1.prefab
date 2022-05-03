@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5430527965237062622}
+  - component: {fileID: 1123623383235342712}
   - component: {fileID: 5430527965237062609}
   m_Layer: 0
   m_Name: healt_oido_1
@@ -17,20 +17,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5430527965237062622
-Transform:
+--- !u!224 &1123623383235342712
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5430527965237062608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.399027, y: -3.801589, z: 54.823975}
+  m_LocalPosition: {x: 0, y: 0, z: 54.823975}
   m_LocalScale: {x: 2.7111683, y: 2.4871354, z: 1}
   m_Children: []
   m_Father: {fileID: 5430527965576053236}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.399027, y: -3.801589}
+  m_SizeDelta: {x: 0.85, y: 0.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &5430527965237062609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -172,7 +177,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5430527965457949878}
+  - component: {fileID: 6239244630319151471}
   - component: {fileID: 5430527965457949879}
   m_Layer: 0
   m_Name: headsets_coin_0
@@ -181,20 +186,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5430527965457949878
-Transform:
+--- !u!224 &6239244630319151471
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5430527965457949865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -268.9, y: 118.1, z: 16}
+  m_LocalPosition: {x: 0, y: 0, z: 16}
   m_LocalScale: {x: 94.15764, y: 95.420586, z: 108}
   m_Children: []
   m_Father: {fileID: 5430527965864201192}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 32.100006, y: -27.900002}
+  m_SizeDelta: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &5430527965457949879
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -273,7 +283,7 @@ Transform:
   m_LocalPosition: {x: 134.82306, y: 29.280275, z: -5290.0986}
   m_LocalScale: {x: 36.527782, y: 36.527782, z: 36.527782}
   m_Children:
-  - {fileID: 5430527965237062622}
+  - {fileID: 1123623383235342712}
   - {fileID: 5430527966746204226}
   - {fileID: 5430527966110215966}
   - {fileID: 5430527965416200078}
@@ -311,7 +321,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 5430527965910637244}
-  - {fileID: 5430527965457949878}
+  - {fileID: 6239244630319151471}
   - {fileID: 5430527965576053236}
   m_Father: {fileID: 0}
   m_RootOrder: 0

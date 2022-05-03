@@ -56,13 +56,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector2 respawnPoint;
     [SerializeField] public GameObject fallDetector;
 
+    [Header("Enemigo")]
+    [SerializeField] public static bool Agachado; 
+
     private void Start()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
         anguloSaltoPared.Normalize();
 
-        //Coleccionables
-        Headphones = GlobalControl.Instance.Headphones;
 
         //Punto de Respawn
         respawnPoint = transform.position;
@@ -138,10 +139,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Deberia detectar flecha abajo 
-        if (movimientoVertical < 0)
-        { 
-            //Escribes Pablo :-)
-            //Agacharse 
+        if (movimientoVertical < 0 && tocandoTierra)
+        {
+            Agachado = true;
+        }
+
+        else if (movimientoVertical > 0)
+        {
+            Agachado = false;
         }
     }
 
@@ -282,10 +287,6 @@ public class PlayerMovement : MonoBehaviour
 
 
     //Funcion para guardar estadisticas
-    public void SavePlayer()
-    {
-        GlobalControl.Instance.Headphones = Headphones;
-    }
 
 
 }
