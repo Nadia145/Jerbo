@@ -49,11 +49,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float direccionSaltoPared = -1;
     [SerializeField] Vector2 anguloSaltoPared;
 
+    [Header("Variables de estadistica")]
+    [SerializeField] float HP;
+    [SerializeField] float Headphones;
 
     private void Start()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
         anguloSaltoPared.Normalize();
+
+        HP = GlobalControl.Instance.HP;
+        Headphones = GlobalControl.Instance.Headphones;
     }
 
     void Update()
@@ -260,4 +266,15 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Meta"))
             CambioEscena();
     }
+    //Aqui terminan las funciones para el cambio de escena
+
+
+    //Funcion para guardar estadisticas
+    public void SavePlayer()
+    {
+        GlobalControl.Instance.HP = HP;
+        GlobalControl.Instance.Headphones = Headphones;
+    }
+
+
 }
