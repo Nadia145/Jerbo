@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.Globalization;
+using System;
 
 public class Web : MonoBehaviour
 {
@@ -43,11 +45,15 @@ public class Web : MonoBehaviour
 
     public IEnumerator RegisterUser(string username, string password)
     {
+
+        DateTime fecha = DateTime.Now;
         WWWForm form = new WWWForm();
-        form.AddField("loginUser", username);
-        form.AddField("loginPass", password);
+
+        form.AddField("usuario", username);
+        form.AddField("contraseña", password);
+        form.AddField("fecha", fecha.ToString());
         //protejer variables
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/UnityJerbo/Register.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/JerboUsers.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -61,5 +67,6 @@ public class Web : MonoBehaviour
             }
         }
     }
+
 
 }
