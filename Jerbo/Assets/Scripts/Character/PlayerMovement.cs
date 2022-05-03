@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maximaVelocidadMovimiento;
     [SerializeField] private float linearDrag;
     private float movimientoHorizontal;
+    private float movimientoVertical;
     private bool mirandoDerecha = true;
     private bool cambiarDireccion => (rb2D.velocity.x > 0f && movimientoHorizontal < 0f) || (rb2D.velocity.x < 0f && movimientoHorizontal > 0f);
 
@@ -59,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Movimiento
         movimientoHorizontal = ObtenerInput().x;
+        movimientoVertical = ObtenerInput().y;
         if (puedeSaltar)
         {
             animatorPersonaje.SetBool("EstaSaltando", true);
@@ -101,13 +103,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovimientoPersonaje() 
     {
+        //Aceleracion
         rb2D.AddForce(new Vector2(movimientoHorizontal, 0f) * movimientoAceleracion);
 
+        //Velocidad de movimiento
         if (Mathf.Abs(rb2D.velocity.x) > maximaVelocidadMovimiento) 
         {
             rb2D.velocity = new Vector2(Mathf.Sign(rb2D.velocity.x) * maximaVelocidadMovimiento, rb2D.velocity.y);
         }
 
+        //Esto hace que el personaje gire 
         if (movimientoHorizontal > 0 && !mirandoDerecha)
         {
             Flip();
@@ -115,6 +120,13 @@ public class PlayerMovement : MonoBehaviour
         else if (movimientoHorizontal < 0 && mirandoDerecha) 
         {
             Flip();
+        }
+
+        //Deberia detectar flecha abajo 
+        if (movimientoVertical < 0)
+        { 
+            //Escribes Pablo :-)
+            //Agacharse 
         }
     }
 
@@ -225,7 +237,15 @@ public class PlayerMovement : MonoBehaviour
     //Aqui empiezan las funciones para el cambio de escena
     public void CambioEscena()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().buildIndex == 6)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
     }
     //Aqui terminan las funciones para el cambio de escena
 
