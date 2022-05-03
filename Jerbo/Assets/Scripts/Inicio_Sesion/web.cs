@@ -52,6 +52,8 @@ public class web : MonoBehaviour
         form.AddField("usuario", username);
         form.AddField("contraseña", password);
         form.AddField("fecha", fecha.ToString());
+
+        
         //protejer variables
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/JerboUsers.php", form))
         {
