@@ -46,12 +46,12 @@ public class web : MonoBehaviour
     public IEnumerator RegisterUser(string username, string password)
     {
 
-        DateTime fecha = DateTime.Now;
+    
         WWWForm form = new WWWForm();
 
         form.AddField("usuario", username);
         form.AddField("contraseña", password);
-        form.AddField("fecha", fecha.ToString());
+        
 
         
         //protejer variables
