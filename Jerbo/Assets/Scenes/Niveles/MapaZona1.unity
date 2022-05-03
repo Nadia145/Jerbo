@@ -1383,6 +1383,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1523496978}
+  - {fileID: 1818870753}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1454,9 +1455,9 @@ MonoBehaviour:
   velocidadSlidePared: 0
   checarPuntoPared: {fileID: 1523496978}
   checarTamanoPared: {x: 0.1, y: 0.5}
-  fuerzaSaltoPared: 0
-  anguloSaltoPared: {x: 0, y: 0}
+  fuerzaSaltoPared: 18
   direccionSaltoPared: -1
+  anguloSaltoPared: {x: 1, y: 3}
 --- !u!61 &483010734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6616,7 +6617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7530711594594945970, guid: 8b1193b4f885af04786b1d9cb8f61aa0, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7530711594594945970, guid: 8b1193b4f885af04786b1d9cb8f61aa0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8167,6 +8168,36 @@ Transform:
   - {fileID: 25209750}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818870752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818870753}
+  m_Layer: 0
+  m_Name: ChecarSuelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818870753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818870752}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.005, y: -0.264, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 483010730}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829706176
 GameObject:

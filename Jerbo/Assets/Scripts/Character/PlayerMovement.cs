@@ -32,7 +32,9 @@ public class PlayerMovement : MonoBehaviour
     private bool puedeSaltar => Input.GetButtonDown("Jump"/*Omi esta linea*/) && (tocandoTierra || valorSaltosExtra > 0);
 
     [Header("Variables Colisiones Tierra")]
-    [SerializeField] private float longitudRaycastTierra;
+    [SerializeField] Transform checarPuntoTierra;
+    [SerializeField] Vector2 checarTierraTamano;
+    //[SerializeField] private float longitudRaycastTierra;
     private bool tocandoTierra;
 
     [Header("Variables Sliding Pared")]
@@ -44,8 +46,8 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Variables Salto Pared")]
     [SerializeField] private float fuerzaSaltoPared;
-    [SerializeField] Vector2 anguloSaltoPared;
     [SerializeField] float direccionSaltoPared = -1;
+    [SerializeField] Vector2 anguloSaltoPared;
 
 
     private void Start()
@@ -178,7 +180,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void ChecarColisiones() 
     {
-        tocandoTierra = Physics2D.Raycast(transform.position * longitudRaycastTierra, Vector2.down, longitudRaycastTierra, capaTierra);
+        //tocandoTierra = Physics2D.Raycast(transform.position * longitudRaycastTierra, Vector2.down, longitudRaycastTierra, capaTierra);
+        tocandoTierra = Physics2D.OverlapBox(checarPuntoTierra.position, checarTierraTamano, 0, capaTierra);
         estaTocandoPared = Physics2D.OverlapBox(checarPuntoPared.position, checarTamanoPared, 0, capaPared);
     }
     private void OnDrawGizmos()
