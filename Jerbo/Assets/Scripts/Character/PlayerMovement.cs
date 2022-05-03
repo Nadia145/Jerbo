@@ -51,15 +51,23 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Variables de estadistica")]
     [SerializeField] float HP;
-    [SerializeField] float Headphones;
+    [SerializeField] int Headphones;
+
+    [Header("Variables de respawn")]
+    [SerializeField] private Vector2 respawnPoint;
+    [SerializeField] public GameObject fallDetector;
 
     private void Start()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
         anguloSaltoPared.Normalize();
 
+        //Coleccionables
         HP = GlobalControl.Instance.HP;
         Headphones = GlobalControl.Instance.Headphones;
+
+        //Punto de Respawn
+        respawnPoint = transform.position;
     }
 
     void Update()
@@ -83,6 +91,9 @@ public class PlayerMovement : MonoBehaviour
         //Slide
         SlidePared();
         SaltoPared();
+
+        //Mover Respawn
+        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
     }
 
     //Aqui empiezan las funciones para el movimiento del personaje
@@ -257,14 +268,20 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Headphones"))
         {
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Meta"))
+        {
             CambioEscena();
+        }
+        if (collision.gameObject.CompareTag("FallDetector"))
+        {
+            transform.position = respawnPoint;
+        }
     }
     //Aqui terminan las funciones para el cambio de escena
 

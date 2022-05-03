@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GlobalControl : MonoBehaviour
 {
     public float HP;
-    public float Headphones;
+    public int Headphones;
     public static GlobalControl Instance;
 
     void Awake()
@@ -20,4 +21,15 @@ public class GlobalControl : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void ChangeScore(int score)
+    {
+        Headphones += score;
+    }
+
+    public void ChangeHP(int damage)
+    {
+        HP -= damage;
+    }
+
 }
