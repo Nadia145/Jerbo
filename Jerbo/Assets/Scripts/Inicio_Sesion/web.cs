@@ -14,7 +14,7 @@ public class web : MonoBehaviour
         // A correct website page.
         //StartCoroutine(GetRequest("http://localhost/UnityBackendTutorial/GetData.php"));
         //StartCoroutine(Login("Yranda","Nova"));
-        //StartCoroutine(RegisterUser("Vic","linux123"));
+        StartCoroutine(RegisterUser("Vic","linux123"));
     }
 
     // Update is called once per frame

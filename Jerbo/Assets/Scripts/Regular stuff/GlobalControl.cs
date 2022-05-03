@@ -30,50 +30,93 @@ public class GlobalControl : MonoBehaviour
 
     void Start()
     {
-        Health = 50;
+        Health = 8;
         Jerbo1.gameObject.SetActive(true);
         Jerbo2.gameObject.SetActive(false);
         Jerbo3.gameObject.SetActive(false);
         Jerbo4.gameObject.SetActive(false);
     }
 
+    public void ChangeHealth(int damage)
+    {
+        Health = Health - damage;
+    }
+
     void Update() {
 
-        if (Health > 100)
-            Health = 100;
+        if (Health > 8)
+            Health = 8;
 
-        if (Health == 100 || Health > 75) {
-            Jerbo1.gameObject.SetActive(true);
-            Jerbo2.gameObject.SetActive(false);
-            Jerbo3.gameObject.SetActive(false);
-            Jerbo4.gameObject.SetActive(false);
+        switch (Health) {
+
+            case 8:
+                Jerbo1.gameObject.SetActive(true);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 7:
+                Jerbo1.gameObject.SetActive(true);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 6:
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(true);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 5:
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(true);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 4:
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(true);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 3:
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(true);
+                Jerbo4.gameObject.SetActive(false);
+                break;
+
+            case 2:
+
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(true);
+                break;
+
+            case 1:
+
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(true);
+                break;
+
+
+            case 0:
+
+                Jerbo1.gameObject.SetActive(false);
+                Jerbo2.gameObject.SetActive(false);
+                Jerbo3.gameObject.SetActive(false);
+                Jerbo4.gameObject.SetActive(true);
+                break;
+
         }
-
-        if (Health == 75 || Health > 50)
-        {
-            Jerbo1.gameObject.SetActive(false);
-            Jerbo2.gameObject.SetActive(true);
-            Jerbo3.gameObject.SetActive(false);
-            Jerbo4.gameObject.SetActive(false);
-        }
-
-        if (Health == 50 || Health > 25) {
-            Jerbo1.gameObject.SetActive(false);
-            Jerbo2.gameObject.SetActive(false);
-            Jerbo3.gameObject.SetActive(true);
-            Jerbo4.gameObject.SetActive(false);
-        }
-
-        if (Health < 25) {
-            Jerbo1.gameObject.SetActive(false);
-            Jerbo2.gameObject.SetActive(false);
-            Jerbo3.gameObject.SetActive(false);
-            Jerbo4.gameObject.SetActive(true);
-        }
-
-
-
-
 
 
     }
