@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Deberia detectar flecha abajo 
-        if (movimientoVertical < 0 && tocandoTierra)
+        if (tocandoTierra)
         {
             Agachado = true;
         }

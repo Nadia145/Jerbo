@@ -30,7 +30,7 @@ public class NinoRaro : MonoBehaviour
                 Aaaaa.Play();
                 TimeforScream = 10;
                 Screamisgoing = true;
-                if (PlayerMovement.Agachado == false) {
+                if (!PlayerMovement.Agachado) {
                     GlobalControl.ChangeHealth(1);
                 }
            
