@@ -15,6 +15,10 @@ public class GlobalControl : MonoBehaviour
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(Jerbo1);
+            DontDestroyOnLoad(Jerbo2);
+            DontDestroyOnLoad(Jerbo3);
+            DontDestroyOnLoad(Jerbo4);
             Instance = this;
         }
         else if (Instance != this)
