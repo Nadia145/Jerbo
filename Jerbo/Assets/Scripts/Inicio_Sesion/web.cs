@@ -14,7 +14,8 @@ public class web : MonoBehaviour
         // A correct website page.
         //StartCoroutine(GetRequest("http://localhost/UnityBackendTutorial/GetData.php"));
         //StartCoroutine(Login("Yranda","Nova"));
-        StartCoroutine(RegisterUser("Vic","linux123"));
+        //StartCoroutine(RegisterUser("Viclinux","linux123"));
+        //StartCoroutine(GetUsers());
     }
 
     // Update is called once per frame
@@ -43,6 +44,31 @@ public class web : MonoBehaviour
             }
         }
     }
+
+    IEnumerator GetUsers()
+    {
+        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/JerboReto/userscheck.php"))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Debug.Log(www.downloadHandler.text);
+                byte[] results = www.downloadHandler.data;
+            }
+        }
+
+
+    }
+
+
+
+
+
     public IEnumerator RegisterUser(string username, string password)
     {
 
@@ -55,7 +81,7 @@ public class web : MonoBehaviour
 
         
         //protejer variables
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/JerboUsers.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/userscheck.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -65,7 +91,7 @@ public class web : MonoBehaviour
             }
             else
             {
-                Debug.Log("New user created");
+                Debug.Log(www.downloadHandler.text);
             }
         }
     }
