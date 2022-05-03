@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float multiplicadorCaidaSaltoBajo = 5f;
     [SerializeField] private int saltosExtra = 1;
     private int valorSaltosExtra;
-    private bool puedeSaltar => Input.GetButtonDown("Jump"/*Omi esta linea*/) && (tocandoTierra || valorSaltosExtra > 0);
+    private bool puedeSaltar => Input.GetButtonDown("Jump"/*Omi esta linea*/) && (tocandoTierra || valorSaltosExtra > 0 || estaDeslizandose);
 
     [Header("Variables Colisiones Tierra")]
     [SerializeField] Transform checarPuntoTierra;
@@ -164,16 +164,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip() 
     {
-        mirandoDerecha = !mirandoDerecha;
-
         if (!estaDeslizandose)
         {
             direccionSaltoPared += -1;
+            mirandoDerecha = !mirandoDerecha;
+            Vector2 laEscala = transform.localScale;
+            laEscala.x *= -1;
+            transform.localScale = laEscala;
         }
-
-        Vector2 laEscala = transform.localScale;
-        laEscala.x *= -1;
-        transform.localScale = laEscala;
     }
     //Aqui terminan las funciones para el movimiento del personaje
 
@@ -206,7 +204,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void ChecarColisiones() 
     {
-        //tocandoTierra = Physics2D.Raycast(transform.position * longitudRaycastTierra, Vector2.down, longitudRaycastTierra, capaTierra);
         tocandoTierra = Physics2D.OverlapBox(checarPuntoTierra.position, checarTierraTamano, 0, capaTierra);
         estaTocandoPared = Physics2D.OverlapBox(checarPuntoPared.position, checarTamanoPared, 0, capaPared);
     }
