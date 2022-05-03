@@ -6,12 +6,12 @@ public class Main : MonoBehaviour
 {
 
     public static Main Instance;
-    public Web Web;
+    public web Web;
     // Start is called before the first frame update
     void Start()
     {
         Instance = this;
-        Web = GetComponent<Web>();
+        Web = GetComponent<web>();
     }
 
     

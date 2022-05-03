@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.Networking;
 using System.Globalization;
 using System;
 
-public class Web : MonoBehaviour
+public class web : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,6 @@ public class Web : MonoBehaviour
             }
         }
     }
-
     public IEnumerator RegisterUser(string username, string password)
     {
 
@@ -67,6 +67,7 @@ public class Web : MonoBehaviour
             }
         }
     }
+
 
 
 }
