@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Deberia detectar flecha abajo 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
             Agachado = true;
         }
