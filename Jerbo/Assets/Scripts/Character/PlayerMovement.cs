@@ -34,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     [Header("Variables Colisiones Tierra")]
     [SerializeField] Transform checarPuntoTierra;
     [SerializeField] Vector2 checarTierraTamano;
-    //[SerializeField] private float longitudRaycastTierra;
     private bool tocandoTierra;
 
     [Header("Variables Sliding Pared")]
@@ -184,11 +183,6 @@ public class PlayerMovement : MonoBehaviour
         tocandoTierra = Physics2D.OverlapBox(checarPuntoTierra.position, checarTierraTamano, 0, capaTierra);
         estaTocandoPared = Physics2D.OverlapBox(checarPuntoPared.position, checarTamanoPared, 0, capaPared);
     }
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * longitudRaycastTierra);
-    }
     //Aqui terminan las funciones para el salto del personaje
 
 
@@ -219,6 +213,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnDrawGizmosSelected()
     {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawCube(checarPuntoTierra.position, checarTierraTamano);
         Gizmos.color = Color.green;
         Gizmos.DrawCube(checarPuntoPared.position, checarTamanoPared);
     }
