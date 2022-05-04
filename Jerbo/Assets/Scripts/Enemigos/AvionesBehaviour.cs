@@ -53,7 +53,7 @@ public class AvionesBehaviour : MonoBehaviour
 
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-        else {
+        else if(transform.position.x != player.transform.position.x) {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
     }
