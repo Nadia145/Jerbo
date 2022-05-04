@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.Networking;
 using System.Globalization;
 using System;
+using UnityEngine.SceneManagement;
 
 public class web : MonoBehaviour
 {
@@ -89,6 +90,7 @@ public class web : MonoBehaviour
             else
             {
                 Debug.Log(www.downloadHandler.text);
+                SceneManager.LoadScene(9);
             }
         }
     }
