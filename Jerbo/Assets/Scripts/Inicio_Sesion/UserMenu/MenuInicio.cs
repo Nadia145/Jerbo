@@ -20,7 +20,7 @@ public class MenuInicio : MonoBehaviour
     }
     public void Regis_b_Strart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(7);
     }
     public void Back(){
         SceneManager.LoadScene(8);
