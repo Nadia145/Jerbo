@@ -3229,7 +3229,6 @@ GameObject:
   - component: {fileID: 1042632355}
   - component: {fileID: 1042632354}
   - component: {fileID: 1042632353}
-  - component: {fileID: 1042632356}
   - component: {fileID: 1042632357}
   - component: {fileID: 1042632358}
   m_Layer: 0
@@ -3304,18 +3303,6 @@ Transform:
   m_Father: {fileID: 778857318}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1042632356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042632352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1042632357
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9083,7 +9070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5186584976514818407, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
       propertyPath: maximaVelocidadMovimiento
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5186584976514818413, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
       propertyPath: m_Name
@@ -9207,7 +9194,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1042632354}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5596207743342783935, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+    - {fileID: 5596207741631749664, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+    - {fileID: 5596207743140227452, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+    - {fileID: 5596207743499112940, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
 --- !u!1001 &6555499538411981710
 PrefabInstance:
