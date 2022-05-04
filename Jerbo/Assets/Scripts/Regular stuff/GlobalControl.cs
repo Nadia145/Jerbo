@@ -10,6 +10,7 @@ public class GlobalControl : MonoBehaviour
     public int Headphones;
     public static GlobalControl Instance;
     public GameObject Jerbo1, Jerbo2, Jerbo3, Jerbo4;
+    private AudioSource Squeak;
 
 
     public void ChangeScore(int score)
@@ -19,11 +20,13 @@ public class GlobalControl : MonoBehaviour
 
     void Start()
     {
+        Squeak = GetComponent<AudioSource>();
     }
 
     public static void ChangeHealth(int damage)
     {
         PlayerHealth = PlayerHealth - damage;
+
     }
 
     void Update() {
@@ -45,6 +48,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(false);
+                Squeak.Play();
                 break;
 
             case 6:
@@ -52,6 +56,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(true);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(false);
+                Squeak.Play();
                 break;
 
             case 5:
@@ -59,6 +64,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(true);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(false);
+                Squeak.Play();
                 break;
 
             case 4:
@@ -66,6 +72,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(true);
                 Jerbo4.gameObject.SetActive(false);
+                Squeak.Play();
                 break;
 
             case 3:
@@ -73,6 +80,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(true);
                 Jerbo4.gameObject.SetActive(false);
+                Squeak.Play();
                 break;
 
             case 2:
@@ -81,6 +89,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(true);
+                Squeak.Play();
                 break;
 
             case 1:
@@ -89,6 +98,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(true);
+                Squeak.Play();
                 break;
 
 
@@ -98,6 +108,7 @@ public class GlobalControl : MonoBehaviour
                 Jerbo2.gameObject.SetActive(false);
                 Jerbo3.gameObject.SetActive(false);
                 Jerbo4.gameObject.SetActive(true);
+                Squeak.Play();
                 break;
 
         }
