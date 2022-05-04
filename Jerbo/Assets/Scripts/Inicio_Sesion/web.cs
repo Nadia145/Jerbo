@@ -47,7 +47,7 @@ public class web : MonoBehaviour
 
     IEnumerator GetUsers()
     {
-        using (UnityWebRequest www = UnityWebRequest.Get("http://localhost/JerboReto/userscheck.php"))
+        using (UnityWebRequest www = UnityWebRequest.Get("http://jerbo.games/userscheck.php"))
         {
             yield return www.SendWebRequest();
 
@@ -78,7 +78,7 @@ public class web : MonoBehaviour
 
 
         //protejer variables
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/Logincheck.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://jerbo.games/Logincheck.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -109,7 +109,7 @@ public class web : MonoBehaviour
 
         
         //protejer variables
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/userscheck.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://jerbo.games/userscheck.php", form))
         {
             yield return www.SendWebRequest();
 
