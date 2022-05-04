@@ -1,0 +1,1285 @@
+fileFormatVersion: 2
+guid: 23c9e769665a1cc469de75f59276228a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6531971190631928830
+    second: spritesJerboVolteados_0
+  - first:
+      213: -6998890656757103186
+    second: spritesJerboVolteados_1
+  - first:
+      213: -2355814245309164729
+    second: spritesJerboVolteados_2
+  - first:
+      213: -7639197208749830213
+    second: spritesJerboVolteados_3
+  - first:
+      213: 8804986487963767807
+    second: spritesJerboVolteados_4
+  - first:
+      213: -139871509976847818
+    second: spritesJerboVolteados_5
+  - first:
+      213: 5633010950150822401
+    second: spritesJerboVolteados_6
+  - first:
+      213: 5563540210152871507
+    second: spritesJerboVolteados_7
+  - first:
+      213: -1498471753486599879
+    second: spritesJerboVolteados_8
+  - first:
+      213: 142833112315854704
+    second: spritesJerboVolteados_9
+  - first:
+      213: -6895502865988564027
+    second: spritesJerboVolteados_10
+  - first:
+      213: -3902258288610303057
+    second: spritesJerboVolteados_11
+  - first:
+      213: -6053864048557361361
+    second: spritesJerboVolteados_12
+  - first:
+      213: -7300081950079379363
+    second: spritesJerboVolteados_13
+  - first:
+      213: -3602740590587563491
+    second: spritesJerboVolteados_14
+  - first:
+      213: -8902032812368231956
+    second: spritesJerboVolteados_15
+  - first:
+      213: 571278177888329998
+    second: spritesJerboVolteados_16
+  - first:
+      213: -5020412832734647377
+    second: spritesJerboVolteados_17
+  - first:
+      213: 7194307408635659480
+    second: spritesJerboVolteados_18
+  - first:
+      213: -8182763883533451247
+    second: spritesJerboVolteados_19
+  - first:
+      213: -2461120259337270962
+    second: spritesJerboVolteados_20
+  - first:
+      213: 1851656610256003253
+    second: spritesJerboVolteados_21
+  - first:
+      213: 9056888682117795541
+    second: spritesJerboVolteados_22
+  - first:
+      213: 3048607464610066148
+    second: spritesJerboVolteados_23
+  - first:
+      213: -1798069349232328712
+    second: spritesJerboVolteados_24
+  - first:
+      213: -3107683876629286565
+    second: spritesJerboVolteados_25
+  - first:
+      213: 5968771520352361450
+    second: spritesJerboVolteados_26
+  - first:
+      213: -8822621096162245140
+    second: spritesJerboVolteados_27
+  - first:
+      213: -7701843966642217827
+    second: spritesJerboVolteados_28
+  - first:
+      213: -6295102383445897937
+    second: spritesJerboVolteados_29
+  - first:
+      213: 3327510136659462503
+    second: spritesJerboVolteados_30
+  - first:
+      213: 6706669246237636815
+    second: spritesJerboVolteados_31
+  - first:
+      213: 1243906620913301021
+    second: spritesJerboVolteados_32
+  - first:
+      213: 6962705921668498612
+    second: spritesJerboVolteados_33
+  - first:
+      213: -1777109418055018641
+    second: spritesJerboVolteados_34
+  - first:
+      213: 4416256128570379196
+    second: spritesJerboVolteados_35
+  - first:
+      213: -26407025164104148
+    second: spritesJerboVolteados_36
+  - first:
+      213: 7640715515374661880
+    second: spritesJerboVolteados_37
+  - first:
+      213: 2470984840952366134
+    second: spritesJerboVolteados_38
+  - first:
+      213: 1413968325283077482
+    second: spritesJerboVolteados_39
+  - first:
+      213: -4030680715649088715
+    second: spritesJerboVolteados_40
+  - first:
+      213: -3531313619515309602
+    second: spritesJerboVolteados_41
+  - first:
+      213: 7192871703156970336
+    second: spritesJerboVolteados_42
+  - first:
+      213: 8154539453081019066
+    second: spritesJerboVolteados_43
+  - first:
+      213: -1977227448507772196
+    second: spritesJerboVolteados_44
+  - first:
+      213: -8343556860704168848
+    second: spritesJerboVolteados_45
+  - first:
+      213: 1524708461439544255
+    second: spritesJerboVolteados_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesJerboVolteados_0
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2001
+        width: 601
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6c4b5fc6c955a0800000000000000
+      internalID: -6531971190631928830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_1
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 2342
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea541368702fede90800000000000000
+      internalID: -6998890656757103186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_2
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 1984
+        width: 610
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743da8fec677e4fd0800000000000000
+      internalID: -2355814245309164729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_3
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 2171
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf8f43ec9e1cf590800000000000000
+      internalID: -7639197208749830213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_4
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1981
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d13b5f88913a70800000000000000
+      internalID: 8804986487963767807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1846
+        width: 71
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae1ad4a931f0ef0800000000000000
+      internalID: -139871509976847818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1558
+        width: 688
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a10ab3d997c2e40800000000000000
+      internalID: 5633010950150822401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1475
+        width: 680
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35693cf185aa53d40800000000000000
+      internalID: 5563540210152871507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_8
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1508
+        width: 656
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939797321eb543be0800000000000000
+      internalID: -1498471753486599879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_9
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 1529
+        width: 665
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fffb975f17bf100800000000000000
+      internalID: 142833112315854704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1786
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb40156da04e40a0800000000000000
+      internalID: -6895502865988564027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_11
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1738
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa32f85f2c468d9c0800000000000000
+      internalID: -3902258288610303057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1691
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27fa3bf8ba5cfba0800000000000000
+      internalID: -6053864048557361361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_13
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 1662
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d581746d426e0ba90800000000000000
+      internalID: -7300081950079379363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_14
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1551
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b520658e700ec0800000000000000
+      internalID: -3602740590587563491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_15
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 1512
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18be77250a57480800000000000000
+      internalID: -8902032812368231956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_16
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 1501
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0167fcd9769de700800000000000000
+      internalID: 571278177888329998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_17
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 1500
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabe90fb029e35ab0800000000000000
+      internalID: -5020412832734647377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_18
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 1503
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d480b8987057d360800000000000000
+      internalID: 7194307408635659480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_19
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1495
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110c7112a9bf07e80800000000000000
+      internalID: -8182763883533451247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_20
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1495
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e494fa8e92858ddd0800000000000000
+      internalID: -2461120259337270962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_21
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1471
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0205460e762b910800000000000000
+      internalID: 1851656610256003253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_22
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1485
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de03eb554880bd70800000000000000
+      internalID: 9056888682117795541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_23
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1135
+        width: 659
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeefab3654de4a20800000000000000
+      internalID: 3048607464610066148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_24
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1443
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff3d751479fb07e0800000000000000
+      internalID: -1798069349232328712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_25
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1118
+        width: 675
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517d4bbaf94fd4d0800000000000000
+      internalID: -3107683876629286565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_26
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 1157
+        width: 690
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb1218e21655d250800000000000000
+      internalID: 5968771520352361450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_27
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5c1677bd0cf8580800000000000000
+      internalID: -8822621096162245140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_28
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1348
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c1ecce7bd8d1590800000000000000
+      internalID: -7701843966642217827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_29
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1255
+        width: 8
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d0ef13cbd43a8a0800000000000000
+      internalID: -6295102383445897937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_30
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1277
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7694912e6d0bd2e20800000000000000
+      internalID: 3327510136659462503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 429
+        width: 258
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8f7006520e21d50800000000000000
+      internalID: 6706669246237636815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_32
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 410
+        width: 255
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d163b413b7e334110800000000000000
+      internalID: 1243906620913301021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 429
+        width: 317
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b44f80552080a060800000000000000
+      internalID: 6962705921668498612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_34
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 698
+        width: 594
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6754d956607657e0800000000000000
+      internalID: -1777109418055018641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_35
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 655
+        width: 606
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4494fc81b94d30800000000000000
+      internalID: 4416256128570379196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_36
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 952
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ec48553fe22aff0800000000000000
+      internalID: -26407025164104148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_37
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 943
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0f8bb6746490a60800000000000000
+      internalID: 7640715515374661880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_38
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 893
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634475afe93ba4220800000000000000
+      internalID: 2470984840952366134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_39
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 794
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd62843bc6f9310800000000000000
+      internalID: 1413968325283077482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 737
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53308bc9e352018c0800000000000000
+      internalID: -4030680715649088715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 625
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed18a4609f04efec0800000000000000
+      internalID: -3531313619515309602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_42
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 270
+        width: 380
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06351ad54b632d360800000000000000
+      internalID: 7192871703156970336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_43
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 311
+        width: 622
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab26dcf8d6eba2170800000000000000
+      internalID: 8154539453081019066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_44
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 509
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2da838c1a7f84e0800000000000000
+      internalID: -1977227448507772196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_45
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 461
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0746472cd3bb53c80800000000000000
+      internalID: -8343556860704168848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboVolteados_46
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 323
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbe226744ad82510800000000000000
+      internalID: 1524708461439544255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesJerboVolteados_0: -6531971190631928830
+      spritesJerboVolteados_40: -4030680715649088715
+      spritesJerboVolteados_23: 3048607464610066148
+      spritesJerboVolteados_21: 1851656610256003253
+      spritesJerboVolteados_30: 3327510136659462503
+      spritesJerboVolteados_1: -6998890656757103186
+      spritesJerboVolteados_36: -26407025164104148
+      spritesJerboVolteados_4: 8804986487963767807
+      spritesJerboVolteados_28: -7701843966642217827
+      spritesJerboVolteados_46: 1524708461439544255
+      spritesJerboVolteados_32: 1243906620913301021
+      spritesJerboVolteados_12: -6053864048557361361
+      spritesJerboVolteados_5: -139871509976847818
+      spritesJerboVolteados_22: 9056888682117795541
+      spritesJerboVolteados_44: -1977227448507772196
+      spritesJerboVolteados_18: 7194307408635659480
+      spritesJerboVolteados_34: -1777109418055018641
+      spritesJerboVolteados_10: -6895502865988564027
+      spritesJerboVolteados_11: -3902258288610303057
+      spritesJerboVolteados_29: -6295102383445897937
+      spritesJerboVolteados_41: -3531313619515309602
+      spritesJerboVolteados_9: 142833112315854704
+      spritesJerboVolteados_38: 2470984840952366134
+      spritesJerboVolteados_14: -3602740590587563491
+      spritesJerboVolteados_8: -1498471753486599879
+      spritesJerboVolteados_33: 6962705921668498612
+      spritesJerboVolteados_16: 571278177888329998
+      spritesJerboVolteados_25: -3107683876629286565
+      spritesJerboVolteados_2: -2355814245309164729
+      spritesJerboVolteados_37: 7640715515374661880
+      spritesJerboVolteados_35: 4416256128570379196
+      spritesJerboVolteados_45: -8343556860704168848
+      spritesJerboVolteados_13: -7300081950079379363
+      spritesJerboVolteados_20: -2461120259337270962
+      spritesJerboVolteados_26: 5968771520352361450
+      spritesJerboVolteados_24: -1798069349232328712
+      spritesJerboVolteados_7: 5563540210152871507
+      spritesJerboVolteados_3: -7639197208749830213
+      spritesJerboVolteados_42: 7192871703156970336
+      spritesJerboVolteados_39: 1413968325283077482
+      spritesJerboVolteados_17: -5020412832734647377
+      spritesJerboVolteados_43: 8154539453081019066
+      spritesJerboVolteados_31: 6706669246237636815
+      spritesJerboVolteados_15: -8902032812368231956
+      spritesJerboVolteados_27: -8822621096162245140
+      spritesJerboVolteados_19: -8182763883533451247
+      spritesJerboVolteados_6: 5633010950150822401
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

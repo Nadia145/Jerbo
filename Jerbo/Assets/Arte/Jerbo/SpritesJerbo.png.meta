@@ -1,0 +1,1285 @@
+fileFormatVersion: 2
+guid: b8c0216106c316245b410f87de5d5853
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8765053197692201357
+    second: newJerbo_0
+  - first:
+      213: 6845506772031947707
+    second: newJerbo_1
+  - first:
+      213: 8246533933000174507
+    second: newJerbo_2
+  - first:
+      213: 7764458179395364272
+    second: newJerbo_3
+  - first:
+      213: -9003378495879453123
+    second: newJerbo_4
+  - first:
+      213: 7769126578066782924
+    second: newJerbo_5
+  - first:
+      213: 8494686735862799026
+    second: newJerbo_6
+  - first:
+      213: -1999261817751725376
+    second: newJerbo_7
+  - first:
+      213: -7292541718974803403
+    second: newJerbo_8
+  - first:
+      213: -4276590241829792448
+    second: newJerbo_9
+  - first:
+      213: -6533884991386996475
+    second: newJerbo_10
+  - first:
+      213: -8655210791933039243
+    second: newJerbo_11
+  - first:
+      213: 516605318555044652
+    second: newJerbo_12
+  - first:
+      213: -161338796411543223
+    second: newJerbo_13
+  - first:
+      213: 6294588464527512354
+    second: newJerbo_14
+  - first:
+      213: 8224844869828012958
+    second: newJerbo_15
+  - first:
+      213: 8564508859544812886
+    second: newJerbo_16
+  - first:
+      213: -6953872747829919146
+    second: newJerbo_17
+  - first:
+      213: -3207620565004793610
+    second: newJerbo_18
+  - first:
+      213: -8961775785624646004
+    second: newJerbo_19
+  - first:
+      213: -6892172152326172628
+    second: newJerbo_20
+  - first:
+      213: 4072287665182233449
+    second: newJerbo_21
+  - first:
+      213: -3240807624319202454
+    second: newJerbo_22
+  - first:
+      213: 5070279684733716069
+    second: newJerbo_23
+  - first:
+      213: 2766001559209544450
+    second: newJerbo_24
+  - first:
+      213: 3179300084064652772
+    second: newJerbo_25
+  - first:
+      213: -3412396041359048466
+    second: newJerbo_26
+  - first:
+      213: 2913702029644141540
+    second: newJerbo_27
+  - first:
+      213: 4144732254674304586
+    second: newJerbo_28
+  - first:
+      213: 4798819319917978064
+    second: newJerbo_29
+  - first:
+      213: 1289795912348058493
+    second: newJerbo_30
+  - first:
+      213: -4204682802851929981
+    second: newJerbo_31
+  - first:
+      213: -8530351602002393722
+    second: newJerbo_32
+  - first:
+      213: 764617881517458546
+    second: newJerbo_33
+  - first:
+      213: 5882554287777704595
+    second: newJerbo_34
+  - first:
+      213: -8044416179648587542
+    second: newJerbo_35
+  - first:
+      213: -4223657559676158654
+    second: newJerbo_36
+  - first:
+      213: -1096820204256117350
+    second: newJerbo_37
+  - first:
+      213: 508606677730503566
+    second: newJerbo_38
+  - first:
+      213: -9004223022430915028
+    second: newJerbo_39
+  - first:
+      213: 4361706703361733352
+    second: newJerbo_40
+  - first:
+      213: -2166237162065636323
+    second: newJerbo_41
+  - first:
+      213: 3425261702093194457
+    second: newJerbo_42
+  - first:
+      213: 9158373005661507564
+    second: newJerbo_43
+  - first:
+      213: -8145356878310932139
+    second: newJerbo_44
+  - first:
+      213: -687809647630826031
+    second: newJerbo_45
+  - first:
+      213: -849419970161930506
+    second: newJerbo_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newJerbo_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1984
+        width: 610
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8968dda179b3a970800000000000000
+      internalID: 8765053197692201357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_1
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2001
+        width: 601
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ce7ed320200f50800000000000000
+      internalID: 6845506772031947707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_2
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2342
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2ea88be2917270800000000000000
+      internalID: 8246533933000174507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2171
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ac388395e0cb60800000000000000
+      internalID: 7764458179395364272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1981
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36e6beb5f29d0380800000000000000
+      internalID: -9003378495879453123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1529
+        width: 665
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca77bcc57b71db60800000000000000
+      internalID: 7769126578066782924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1508
+        width: 656
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba1359549033e570800000000000000
+      internalID: 8494686735862799026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_7
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1475
+        width: 680
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca18e328f13144e0800000000000000
+      internalID: -1999261817751725376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_8
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 1558
+        width: 688
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325ac2b1ffabca90800000000000000
+      internalID: -7292541718974803403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_9
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 1846
+        width: 71
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04555d955df76a4c0800000000000000
+      internalID: -4276590241829792448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_10
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 1786
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5013f15e73af255a0800000000000000
+      internalID: -6533884991386996475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1738
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d24ba54a382e780800000000000000
+      internalID: -8655210791933039243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_12
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 1691
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0d85dcc95b2700800000000000000
+      internalID: 516605318555044652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1662
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941a66f283fc2cdf0800000000000000
+      internalID: -161338796411543223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_14
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 1551
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2231f6bbbdeda5750800000000000000
+      internalID: 6294588464527512354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_15
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1512
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9beacef4d4842270800000000000000
+      internalID: 8224844869828012958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1503
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dbad85e6f3bd670800000000000000
+      internalID: 8564508859544812886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1500
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652045c3491ee7f90800000000000000
+      internalID: -6953872747829919146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_18
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1501
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c6a0471e3c73d0800000000000000
+      internalID: -3207620565004793610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_19
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1495
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e452d876061a380800000000000000
+      internalID: -8961775785624646004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_20
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1495
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2052c991f51a50a0800000000000000
+      internalID: -6892172152326172628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_21
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1485
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963546a3e0ca38830800000000000000
+      internalID: 4072287665182233449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_22
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1471
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b831fd2a65603d0800000000000000
+      internalID: -3240807624319202454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1157
+        width: 690
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566ce6082804d5640800000000000000
+      internalID: 5070279684733716069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1118
+        width: 675
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b8cd063cfc26620800000000000000
+      internalID: 2766001559209544450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_25
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1135
+        width: 659
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0b01f4942f1c20800000000000000
+      internalID: 3179300084064652772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_26
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1443
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee048d941ebb4a0d0800000000000000
+      internalID: -3412396041359048466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_27
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3164afe8c8f6820800000000000000
+      internalID: 2913702029644141540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_28
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1348
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e37f0a60c058930800000000000000
+      internalID: 4144732254674304586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_29
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1277
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d12ef80fb4d89240800000000000000
+      internalID: 4798819319917978064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_30
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1255
+        width: 8
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73c1447c8646e110800000000000000
+      internalID: 1289795912348058493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 952
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38021d6a447f5a5c0800000000000000
+      internalID: -4204682802851929981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_32
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 655
+        width: 606
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858679e96a1e9980800000000000000
+      internalID: -8530351602002393722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_33
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 698
+        width: 594
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27482c089e77c9a00800000000000000
+      internalID: 764617881517458546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_34
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 429
+        width: 317
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ae0f625f703a150800000000000000
+      internalID: 5882554287777704595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_35
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 410
+        width: 255
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae814a21b1e7c5090800000000000000
+      internalID: -8044416179648587542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_36
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 429
+        width: 258
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dfb9ec3dd8265c0800000000000000
+      internalID: -4223657559676158654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_37
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 943
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db7ded5df47c0f0800000000000000
+      internalID: -1096820204256117350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 893
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ba484241fee0700800000000000000
+      internalID: 508606677730503566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_39
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 794
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c267c951ed29a0380800000000000000
+      internalID: -9004223022430915028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_40
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 737
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f05c2325e78c30800000000000000
+      internalID: 4361706703361733352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_41
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 270
+        width: 380
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14d3df37caffe1e0800000000000000
+      internalID: -2166237162065636323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_42
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 625
+        width: 7
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c308ce59f88f20800000000000000
+      internalID: 3425261702093194457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 509
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0bfab9b3191f70800000000000000
+      internalID: 9158373005661507564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_44
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 311
+        width: 622
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5510e7b3311e5fe80800000000000000
+      internalID: -8145356878310932139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 461
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c0e705c86476f0800000000000000
+      internalID: -687809647630826031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newJerbo_46
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 323
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe006d99014634f0800000000000000
+      internalID: -849419970161930506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      newJerbo_37: -1096820204256117350
+      newJerbo_44: -8145356878310932139
+      newJerbo_6: 8494686735862799026
+      newJerbo_16: 8564508859544812886
+      newJerbo_19: -8961775785624646004
+      newJerbo_17: -6953872747829919146
+      newJerbo_15: 8224844869828012958
+      newJerbo_26: -3412396041359048466
+      newJerbo_8: -7292541718974803403
+      newJerbo_23: 5070279684733716069
+      newJerbo_11: -8655210791933039243
+      newJerbo_22: -3240807624319202454
+      newJerbo_35: -8044416179648587542
+      newJerbo_39: -9004223022430915028
+      newJerbo_5: 7769126578066782924
+      newJerbo_29: 4798819319917978064
+      newJerbo_12: 516605318555044652
+      newJerbo_28: 4144732254674304586
+      newJerbo_36: -4223657559676158654
+      newJerbo_13: -161338796411543223
+      newJerbo_31: -4204682802851929981
+      newJerbo_0: 8765053197692201357
+      newJerbo_14: 6294588464527512354
+      newJerbo_46: -849419970161930506
+      newJerbo_18: -3207620565004793610
+      newJerbo_21: 4072287665182233449
+      newJerbo_32: -8530351602002393722
+      newJerbo_1: 6845506772031947707
+      newJerbo_43: 9158373005661507564
+      newJerbo_20: -6892172152326172628
+      newJerbo_34: 5882554287777704595
+      newJerbo_30: 1289795912348058493
+      newJerbo_2: 8246533933000174507
+      newJerbo_7: -1999261817751725376
+      newJerbo_40: 4361706703361733352
+      newJerbo_38: 508606677730503566
+      newJerbo_4: -9003378495879453123
+      newJerbo_27: 2913702029644141540
+      newJerbo_41: -2166237162065636323
+      newJerbo_3: 7764458179395364272
+      newJerbo_10: -6533884991386996475
+      newJerbo_42: 3425261702093194457
+      newJerbo_24: 2766001559209544450
+      newJerbo_33: 764617881517458546
+      newJerbo_25: 3179300084064652772
+      newJerbo_9: -4276590241829792448
+      newJerbo_45: -687809647630826031
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

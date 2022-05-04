@@ -1,0 +1,1285 @@
+fileFormatVersion: 2
+guid: 7c3c682f74acf0f4e9805f8362f33fbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7703991099868065796
+    second: spritesJerboLado_0
+  - first:
+      213: 6650262797541836623
+    second: spritesJerboLado_1
+  - first:
+      213: -8921625937782980788
+    second: spritesJerboLado_2
+  - first:
+      213: 1998943750558123345
+    second: spritesJerboLado_3
+  - first:
+      213: -3999365021528633117
+    second: spritesJerboLado_4
+  - first:
+      213: -9163701096675864551
+    second: spritesJerboLado_5
+  - first:
+      213: 7623585400286965460
+    second: spritesJerboLado_6
+  - first:
+      213: 257439295200879453
+    second: spritesJerboLado_7
+  - first:
+      213: 938028326908023804
+    second: spritesJerboLado_8
+  - first:
+      213: -7439441488810047165
+    second: spritesJerboLado_9
+  - first:
+      213: -7835013723128048869
+    second: spritesJerboLado_10
+  - first:
+      213: -7698020108170563959
+    second: spritesJerboLado_11
+  - first:
+      213: -1197663953393546332
+    second: spritesJerboLado_12
+  - first:
+      213: 6128322796599441962
+    second: spritesJerboLado_13
+  - first:
+      213: -4275274873315166428
+    second: spritesJerboLado_14
+  - first:
+      213: -7406567367943086816
+    second: spritesJerboLado_15
+  - first:
+      213: -3316835831597058266
+    second: spritesJerboLado_16
+  - first:
+      213: -3873169799380708316
+    second: spritesJerboLado_17
+  - first:
+      213: -3908989644179001038
+    second: spritesJerboLado_18
+  - first:
+      213: -5625143050367110704
+    second: spritesJerboLado_19
+  - first:
+      213: 4606037695079224654
+    second: spritesJerboLado_20
+  - first:
+      213: -3962224693474861317
+    second: spritesJerboLado_21
+  - first:
+      213: 4328657466962157423
+    second: spritesJerboLado_22
+  - first:
+      213: -5425181924987179847
+    second: spritesJerboLado_23
+  - first:
+      213: 4733392155262887001
+    second: spritesJerboLado_24
+  - first:
+      213: -5085972310665501309
+    second: spritesJerboLado_25
+  - first:
+      213: -387062828693749717
+    second: spritesJerboLado_26
+  - first:
+      213: 5150950577984234535
+    second: spritesJerboLado_27
+  - first:
+      213: -215948593101447425
+    second: spritesJerboLado_28
+  - first:
+      213: -1901742981522061800
+    second: spritesJerboLado_29
+  - first:
+      213: 349055789285987634
+    second: spritesJerboLado_30
+  - first:
+      213: -7742072653613636870
+    second: spritesJerboLado_31
+  - first:
+      213: -7094803634783065986
+    second: spritesJerboLado_32
+  - first:
+      213: -2937311882030091557
+    second: spritesJerboLado_33
+  - first:
+      213: -2208379602861240233
+    second: spritesJerboLado_34
+  - first:
+      213: -553808278449817661
+    second: spritesJerboLado_35
+  - first:
+      213: -4118714609210618682
+    second: spritesJerboLado_36
+  - first:
+      213: -1448364346045111720
+    second: spritesJerboLado_37
+  - first:
+      213: -8584333279099059692
+    second: spritesJerboLado_38
+  - first:
+      213: 5147446849517844616
+    second: spritesJerboLado_39
+  - first:
+      213: 3044588456061338220
+    second: spritesJerboLado_40
+  - first:
+      213: -3664963690226423465
+    second: spritesJerboLado_41
+  - first:
+      213: 4444549260189271151
+    second: spritesJerboLado_42
+  - first:
+      213: -8774568819882426268
+    second: spritesJerboLado_43
+  - first:
+      213: 2072032101242161
+    second: spritesJerboLado_44
+  - first:
+      213: -5014439482036861438
+    second: spritesJerboLado_45
+  - first:
+      213: -3477016366621537347
+    second: spritesJerboLado_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesJerboLado_0
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 3395
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400386c76131aea60800000000000000
+      internalID: 7703991099868065796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_1
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 3398
+        width: 36
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f470a7e97ca7a4c50800000000000000
+      internalID: 6650262797541836623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_2
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2786
+        width: 346
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb8877a74003480800000000000000
+      internalID: -8921625937782980788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_3
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 3374
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155010210ccadbb10800000000000000
+      internalID: 1998943750558123345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_4
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2730
+        width: 380
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d9a4d3b66f78c0800000000000000
+      internalID: -3999365021528633117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_5
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 2778
+        width: 361
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91017c8676ef3d080800000000000000
+      internalID: -9163701096675864551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_6
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3385
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de65f2b78a6cc960800000000000000
+      internalID: 7623585400286965460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2898
+        width: 384
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ecadccab929300800000000000000
+      internalID: 257439295200879453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 3276
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35b9e1bcb840d00800000000000000
+      internalID: 938028326908023804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_9
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3265
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3498c2cb16bc1c890800000000000000
+      internalID: -7439441488810047165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_10
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2632
+        width: 297
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1354aec780744390800000000000000
+      internalID: -7835013723128048869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_11
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 3155
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eedaa5f732b2590800000000000000
+      internalID: -7698020108170563959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_12
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 2824
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab00b9dafa016fe0800000000000000
+      internalID: -1197663953393546332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2797
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2afc304d1d2c0550800000000000000
+      internalID: 6128322796599441962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_14
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2793
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42775e2772c2ba4c0800000000000000
+      internalID: -4275274873315166428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2169
+        width: 206
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d90c47836963990800000000000000
+      internalID: -7406567367943086816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_16
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2715
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627be5f626b38f1d0800000000000000
+      internalID: -3316835831597058266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_17
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 2663
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4245421a69cbf3ac0800000000000000
+      internalID: -3873169799380708316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_18
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 2050
+        width: 416
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b70c11aa70c9c0800000000000000
+      internalID: -3908989644179001038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_19
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2048
+        width: 326
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d17c10f23a7fe1b0800000000000000
+      internalID: -5625143050367110704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_20
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2639
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45914d31eeebef30800000000000000
+      internalID: 4606037695079224654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_21
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1740
+        width: 329
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe562152a95309c0800000000000000
+      internalID: -3962224693474861317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2376
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f1f90380b721c30800000000000000
+      internalID: 4328657466962157423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_23
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1962
+        width: 352
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bce44778c1e5b4b0800000000000000
+      internalID: -5425181924987179847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_24
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2347
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954a01d261360b140800000000000000
+      internalID: 4733392155262887001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_25
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2279
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3856f4d412ffa69b0800000000000000
+      internalID: -5085972310665501309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_26
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1322
+        width: 445
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2083f57860e0aaf0800000000000000
+      internalID: -387062828693749717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_27
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1987
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724e750824adb7740800000000000000
+      internalID: 5150950577984234535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_28
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1735
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe517216ebc00df0800000000000000
+      internalID: -215948593101447425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_29
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1728
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816094c85d6ab95e0800000000000000
+      internalID: -1901742981522061800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_30
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1724
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2355f27146818d400800000000000000
+      internalID: 349055789285987634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_31
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1680
+        width: 80
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2e718d0f1ae8490800000000000000
+      internalID: -7742072653613636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_32
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 933
+        width: 313
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78ea9d1fa13a8d90800000000000000
+      internalID: -7094803634783065986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_33
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1586
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2ff05e7629c37d0800000000000000
+      internalID: -2937311882030091557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_34
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1087
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750dc32a3724a51e0800000000000000
+      internalID: -2208379602861240233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_35
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 648
+        width: 684
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7f3511e4a7058f0800000000000000
+      internalID: -553808278449817661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_36
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 856
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc0ac282e267d6c0800000000000000
+      internalID: -4118714609210618682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_37
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 313
+        width: 380
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852e3a01d4066ebe0800000000000000
+      internalID: -1448364346045111720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_38
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 659
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4128cb94d525ed880800000000000000
+      internalID: -8584333279099059692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_39
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 362
+        width: 684
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888f6b523a76f6740800000000000000
+      internalID: 5147446849517844616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 63
+        width: 685
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628ac2e11d804a20800000000000000
+      internalID: 3044588456061338220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_41
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 222
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759695901fe632dc0800000000000000
+      internalID: -3664963690226423465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_42
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 155
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648e4001063ead30800000000000000
+      internalID: 4444549260189271151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_43
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 85
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46080b1e5287a3680800000000000000
+      internalID: -8774568819882426268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_44
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 56
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1359b51908c570000800000000000000
+      internalID: 2072032101242161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_45
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 61
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206cf75dbd1296ab0800000000000000
+      internalID: -5014439482036861438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesJerboLado_46
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 0
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbcd4d59082fbfc0800000000000000
+      internalID: -3477016366621537347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesJerboLado_15: -7406567367943086816
+      spritesJerboLado_21: -3962224693474861317
+      spritesJerboLado_6: 7623585400286965460
+      spritesJerboLado_16: -3316835831597058266
+      spritesJerboLado_39: 5147446849517844616
+      spritesJerboLado_3: 1998943750558123345
+      spritesJerboLado_33: -2937311882030091557
+      spritesJerboLado_31: -7742072653613636870
+      spritesJerboLado_38: -8584333279099059692
+      spritesJerboLado_45: -5014439482036861438
+      spritesJerboLado_18: -3908989644179001038
+      spritesJerboLado_1: 6650262797541836623
+      spritesJerboLado_26: -387062828693749717
+      spritesJerboLado_44: 2072032101242161
+      spritesJerboLado_17: -3873169799380708316
+      spritesJerboLado_35: -553808278449817661
+      spritesJerboLado_14: -4275274873315166428
+      spritesJerboLado_40: 3044588456061338220
+      spritesJerboLado_37: -1448364346045111720
+      spritesJerboLado_0: 7703991099868065796
+      spritesJerboLado_25: -5085972310665501309
+      spritesJerboLado_34: -2208379602861240233
+      spritesJerboLado_7: 257439295200879453
+      spritesJerboLado_20: 4606037695079224654
+      spritesJerboLado_23: -5425181924987179847
+      spritesJerboLado_22: 4328657466962157423
+      spritesJerboLado_10: -7835013723128048869
+      spritesJerboLado_19: -5625143050367110704
+      spritesJerboLado_2: -8921625937782980788
+      spritesJerboLado_36: -4118714609210618682
+      spritesJerboLado_9: -7439441488810047165
+      spritesJerboLado_11: -7698020108170563959
+      spritesJerboLado_28: -215948593101447425
+      spritesJerboLado_41: -3664963690226423465
+      spritesJerboLado_13: 6128322796599441962
+      spritesJerboLado_5: -9163701096675864551
+      spritesJerboLado_27: 5150950577984234535
+      spritesJerboLado_46: -3477016366621537347
+      spritesJerboLado_32: -7094803634783065986
+      spritesJerboLado_24: 4733392155262887001
+      spritesJerboLado_42: 4444549260189271151
+      spritesJerboLado_30: 349055789285987634
+      spritesJerboLado_12: -1197663953393546332
+      spritesJerboLado_4: -3999365021528633117
+      spritesJerboLado_29: -1901742981522061800
+      spritesJerboLado_8: 938028326908023804
+      spritesJerboLado_43: -8774568819882426268
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

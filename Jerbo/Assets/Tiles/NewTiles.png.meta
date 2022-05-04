@@ -108,6 +108,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -772,6 +773,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      NewTiles_22: 7053412151058141805
+      NewTiles_18: -297594135204770486
+      NewTiles_19: -2349210909802765958
+      NewTiles_23: 4975969113718748867
+      NewTiles_4: 6531414610230975452
+      NewTiles_5: -2978450680000764825
+      NewTiles_10: 7989934611787888981
+      NewTiles_11: 110256847908961025
+      NewTiles_20: 4185861196178703755
+      NewTiles_2: 6387760361206623395
+      NewTiles_15: -2364003482047996131
+      NewTiles_9: 4323797480345840554
+      NewTiles_21: 1651910688013636497
+      NewTiles_12: -3252915569008958853
+      NewTiles_16: -4850523981063704843
+      NewTiles_14: 8602424016402043601
+      NewTiles_25: 1390701099473114651
+      NewTiles_1: 7164152352057149917
+      NewTiles_3: 9116399035241803031
+      NewTiles_6: 5531617718656566669
+      NewTiles_8: -3564339102368226673
+      NewTiles_0: -5124931160864161403
+      NewTiles_27: 5544483923028769046
+      NewTiles_17: -7328326672181009500
+      NewTiles_24: -6740748623886860298
+      NewTiles_26: 3683803172826002442
+      NewTiles_13: -7321969909383752895
+      NewTiles_7: -6218461298820946913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

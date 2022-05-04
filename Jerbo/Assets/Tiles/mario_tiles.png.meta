@@ -786,6 +786,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1807,6 +1808,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mario_tiles_24: -7015311718304022190
+      mario_tiles_40: -5361283392314141144
+      mario_tiles_17: -2355390252428461487
+      mario_tiles_33: 217515701685083866
+      mario_tiles_29: 5017872521621403391
+      mario_tiles_16: -280344173347924516
+      mario_tiles_10: -7157229534041507061
+      mario_tiles_23: 7488250911700092068
+      mario_tiles_14: -6360643933720737035
+      mario_tiles_37: -1519989075134027979
+      mario_tiles_7: 8213536149520521825
+      mario_tiles_38: -3402878034861210750
+      mario_tiles_34: 8466958285818324438
+      mario_tiles_41: -1361924394984268680
+      mario_tiles_26: -1114178004354412534
+      mario_tiles_19: -2597975205452736228
+      mario_tiles_42: 5529566535174040634
+      mario_tiles_25: -6268488821891207901
+      mario_tiles_44: -8208758743809557630
+      mario_tiles_31: -1996186995378013405
+      mario_tiles_32: 2608416973536535934
+      mario_tiles_30: -2232173805803242662
+      mario_tiles_2: -1350476753283347517
+      mario_tiles_6: -1343695843272209358
+      mario_tiles_28: -2850745237710135752
+      mario_tiles_9: 2509973600432637561
+      mario_tiles_35: 8011809072507396368
+      mario_tiles_15: 6237509424050885322
+      mario_tiles_13: -8149316216702872829
+      mario_tiles_11: -5813308373687943245
+      mario_tiles_1: -9044973064111785081
+      mario_tiles_39: 3853549325418048583
+      mario_tiles_8: -5114862180203254296
+      mario_tiles_0: -738391622057959287
+      mario_tiles_4: -5907945265947115443
+      mario_tiles_5: -1350657596529784809
+      mario_tiles_12: 2769482863282104324
+      mario_tiles_21: -3134338758858451
+      mario_tiles_18: 3560911804353067666
+      mario_tiles_22: -1533282004374301687
+      mario_tiles_43: 1913877882657408235
+      mario_tiles_3: 2810161302635947559
+      mario_tiles_27: -4088914644504614924
+      mario_tiles_36: 8716661545741915298
+      mario_tiles_20: -2335974984099499454
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      jerbos_mini_animarion_4: -5778798589870040795
+      jerbos_mini_animarion_1: 152530715404827085
+      jerbos_mini_animarion_2: -8900420972927104991
+      jerbos_mini_animarion_0: -2632396333245090027
+      jerbos_mini_animarion_3: -3823532272433911487
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
