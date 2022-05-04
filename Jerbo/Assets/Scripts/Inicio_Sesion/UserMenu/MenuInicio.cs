@@ -16,7 +16,7 @@ public class MenuInicio : MonoBehaviour
     }
     public void Login_b_Start()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(9);
     }
     public void Regis_b_Strart()
     {
