@@ -3544,7 +3544,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 676468623055501080, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3295282399095810292, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_Name
@@ -3564,7 +3564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4083654829973118773, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -54.823975
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083654829973118773, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3596,7 +3596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5596207741631749666, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596207741631749667, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
@@ -3612,7 +3612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5596207743140227454, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596207743140227455, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
@@ -3636,7 +3636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5596207743499112942, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596207743499112943, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
@@ -21287,7 +21287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983820091}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4946, y: -3.8602, z: 85.21053}
+  m_LocalPosition: {x: 3.4946, y: -3.8602, z: 0}
   m_LocalScale: {x: 0.08328513, y: 0.10227757, z: 0.6623716}
   m_ConstrainProportionsScale: 0
   m_Children: []

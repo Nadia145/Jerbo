@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.309027, y: -0.03841097, z: -54.823975}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5596207742916365704}
   m_Father: {fileID: 0}
@@ -57,6 +58,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4083654829973118773}
     m_Modifications:
+    - target: {fileID: 1123623383235342712, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430527965416200078, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430527965576053236, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5430527965864201192, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -161,25 +174,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasHUD
       objectReference: {fileID: 0}
+    - target: {fileID: 5430527965910637244, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430527966110215966, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430527966746204226, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239244630319151471, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6239244630319151471, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -27.899994
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
---- !u!224 &5596207742916365704 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5430527965864201192, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
-  m_PrefabInstance: {fileID: 501207029931247200}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5596207743342783920 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5430527965237062608, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
-  m_PrefabInstance: {fileID: 501207029931247200}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5596207741631749669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5430527966746204229, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+  m_PrefabInstance: {fileID: 501207029931247200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &5596207742916365704 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5430527965864201192, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
   m_PrefabInstance: {fileID: 501207029931247200}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &5596207743140227441 stripped
@@ -187,9 +211,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5430527966110215953, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
   m_PrefabInstance: {fileID: 501207029931247200}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5596207743499112929 stripped
+--- !u!1 &5596207743342783920 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 5430527965416200065, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5430527965237062608, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
   m_PrefabInstance: {fileID: 501207029931247200}
   m_PrefabAsset: {fileID: 0}
 --- !u!212 &5596207743342783921
@@ -203,6 +227,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -243,3 +268,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &5596207743499112929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5430527965416200065, guid: b0d7cbe079ee6494bb4cb05fb76edd27, type: 3}
+  m_PrefabInstance: {fileID: 501207029931247200}
+  m_PrefabAsset: {fileID: 0}

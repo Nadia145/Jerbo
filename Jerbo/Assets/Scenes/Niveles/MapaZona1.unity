@@ -3477,7 +3477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044814338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3721, y: -3.8046, z: 54.82397}
+  m_LocalPosition: {x: 3.3721, y: -3.8046, z: 0}
   m_LocalScale: {x: 0.0939875, y: 0.10407261, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9396,7 +9396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4083654829973118773, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -54.823975
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083654829973118773, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9426,6 +9426,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5596207741631749666, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5596207741631749667, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -9438,6 +9442,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23.150024
       objectReference: {fileID: 0}
+    - target: {fileID: 5596207743140227454, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5596207743140227455, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -9446,9 +9454,17 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5596207743499112942, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5596207743499112943, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596207743674828692, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5792362273076199183, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_AnchoredPosition.x
