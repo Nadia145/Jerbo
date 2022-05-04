@@ -8,11 +8,11 @@ public class MenuInicio : MonoBehaviour
 {
     public void Login_b()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(8);
     }
     public void Regis_b()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(7);
     }
     public void Login_b_Start()
     {
@@ -20,9 +20,9 @@ public class MenuInicio : MonoBehaviour
     }
     public void Regis_b_Strart()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(8);
     }
     public void Back(){
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(0);
     }
 }
