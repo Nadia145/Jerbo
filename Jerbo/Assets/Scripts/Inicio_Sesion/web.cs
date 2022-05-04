@@ -91,6 +91,7 @@ public class web : MonoBehaviour
                 Debug.Log(www.downloadHandler.text);
             }
         }
+    }
 
 
 

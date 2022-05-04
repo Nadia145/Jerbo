@@ -8,15 +8,15 @@ public class Login : MonoBehaviour
 {
     public TMP_InputField UsernameInput;
     public TMP_InputField PasswordInput;
-    public Button RegisterButton;
+    public Button LoginButton;
 
     // Update is called once per frame
     void Start()
     {
-        RegisterButton.onClick.AddListener(() =>
+        LoginButton.onClick.AddListener(() =>
         {
 
-            StartCoroutine(Main.Instance.Web.Loginuser(UsernameInput.text, PasswordInput.text));
+            StartCoroutine(Main.Instance.Web.LoginUser(UsernameInput.text, PasswordInput.text));
 
 
         });
