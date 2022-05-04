@@ -9135,6 +9135,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5186584976514818401, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186584976514818401, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
+      propertyPath: m_Size.y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186584976514818401, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
+      propertyPath: m_Direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5186584976514818407, guid: 8f3a165608c6b374fb12678042e2c438, type: 3}
       propertyPath: fallDetector
       value: 
@@ -9285,6 +9297,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1042632354}
+    - target: {fileID: 5596207742937636060, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.150024
+      objectReference: {fileID: 0}
     - target: {fileID: 5596207743140227455, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -9296,6 +9312,14 @@ PrefabInstance:
     - target: {fileID: 5596207743499112943, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792362273076199183, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 32.099976
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792362273076199183, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.900024
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5596207743342783935, guid: f772d22954454e048b4d5c5bc836fd27, type: 3}
