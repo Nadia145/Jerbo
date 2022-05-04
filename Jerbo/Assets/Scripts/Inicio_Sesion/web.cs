@@ -66,10 +66,38 @@ public class web : MonoBehaviour
     }
 
 
+    public IEnumerator LoginUser(string username, string password)
+    {
+
+
+        WWWForm form = new WWWForm();
+
+        form.AddField("usuario", username);
+        form.AddField("contraseña", password);
 
 
 
-    public IEnumerator RegisterUser(string username, string password)
+        //protejer variables
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/JerboReto/Logincheck.php", form))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Debug.Log(www.downloadHandler.text);
+            }
+        }
+    }
+
+
+
+
+
+        public IEnumerator RegisterUser(string username, string password)
     {
 
     
