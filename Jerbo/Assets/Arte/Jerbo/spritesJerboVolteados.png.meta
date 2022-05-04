@@ -165,6 +165,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1228,6 +1229,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesJerboVolteados_0: -6531971190631928830
+      spritesJerboVolteados_40: -4030680715649088715
+      spritesJerboVolteados_23: 3048607464610066148
+      spritesJerboVolteados_21: 1851656610256003253
+      spritesJerboVolteados_30: 3327510136659462503
+      spritesJerboVolteados_1: -6998890656757103186
+      spritesJerboVolteados_36: -26407025164104148
+      spritesJerboVolteados_4: 8804986487963767807
+      spritesJerboVolteados_28: -7701843966642217827
+      spritesJerboVolteados_46: 1524708461439544255
+      spritesJerboVolteados_32: 1243906620913301021
+      spritesJerboVolteados_12: -6053864048557361361
+      spritesJerboVolteados_5: -139871509976847818
+      spritesJerboVolteados_22: 9056888682117795541
+      spritesJerboVolteados_44: -1977227448507772196
+      spritesJerboVolteados_18: 7194307408635659480
+      spritesJerboVolteados_34: -1777109418055018641
+      spritesJerboVolteados_10: -6895502865988564027
+      spritesJerboVolteados_11: -3902258288610303057
+      spritesJerboVolteados_29: -6295102383445897937
+      spritesJerboVolteados_41: -3531313619515309602
+      spritesJerboVolteados_9: 142833112315854704
+      spritesJerboVolteados_38: 2470984840952366134
+      spritesJerboVolteados_14: -3602740590587563491
+      spritesJerboVolteados_8: -1498471753486599879
+      spritesJerboVolteados_33: 6962705921668498612
+      spritesJerboVolteados_16: 571278177888329998
+      spritesJerboVolteados_25: -3107683876629286565
+      spritesJerboVolteados_2: -2355814245309164729
+      spritesJerboVolteados_37: 7640715515374661880
+      spritesJerboVolteados_35: 4416256128570379196
+      spritesJerboVolteados_45: -8343556860704168848
+      spritesJerboVolteados_13: -7300081950079379363
+      spritesJerboVolteados_20: -2461120259337270962
+      spritesJerboVolteados_26: 5968771520352361450
+      spritesJerboVolteados_24: -1798069349232328712
+      spritesJerboVolteados_7: 5563540210152871507
+      spritesJerboVolteados_3: -7639197208749830213
+      spritesJerboVolteados_42: 7192871703156970336
+      spritesJerboVolteados_39: 1413968325283077482
+      spritesJerboVolteados_17: -5020412832734647377
+      spritesJerboVolteados_43: 8154539453081019066
+      spritesJerboVolteados_31: 6706669246237636815
+      spritesJerboVolteados_15: -8902032812368231956
+      spritesJerboVolteados_27: -8822621096162245140
+      spritesJerboVolteados_19: -8182763883533451247
+      spritesJerboVolteados_6: 5633010950150822401
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

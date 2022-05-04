@@ -76,15 +76,17 @@ public class PlayerMovement : MonoBehaviour
         movimientoVertical = ObtenerInput().y;
         if (puedeSaltar)
         {
+            //Animacion Para Saltar
             animatorPersonaje.SetBool("EstaSaltando", true);
             SaltoPersonaje();
         }
         else if (!puedeSaltar)
         {
+            //Animacion Para saltar
             animatorPersonaje.SetBool("EstaSaltando", false);
         }
 
-        //Animaciones
+        //Animacion para caminar
         animatorPersonaje.SetFloat("VelocidadPersonaje", Mathf.Abs(movimientoHorizontal));
 
         //Slide
@@ -142,10 +144,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             Agachado = true;
+
+            //Animaciones Para agacharse
+            animatorPersonaje.SetBool("EstaAgachado", true);
         }
         else
         {
             Agachado = false;
+
+            //Animaciones Para agacharse
+            animatorPersonaje.SetBool("EstaAgachado", false);
         }
     }
 
@@ -221,10 +229,17 @@ public class PlayerMovement : MonoBehaviour
         if (estaTocandoPared && !tocandoTierra && rb2D.velocity.y < 0)
         {
             estaDeslizandose = true;
+
+            //Animaciones Para deslizarse
+            animatorPersonaje.SetBool("EstaSaltandoPared", false);
+            animatorPersonaje.SetBool("EstaPared", true);
+            animatorPersonaje.SetBool("EstaTocandoPiso", false);
         }
         else
         {
             estaDeslizandose = false;
+
+            animatorPersonaje.SetBool("EstaPared", false);
         }
         if (estaDeslizandose)
         {
@@ -237,6 +252,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2D.AddForce(new Vector2(fuerzaSaltoPared * anguloSaltoPared.x * direccionSaltoPared, fuerzaSaltoPared * anguloSaltoPared.y), ForceMode2D.Impulse);
             Flip();
+
+            //Animaciones Salto pared
+            animatorPersonaje.SetBool("EstaSaltandoPared", true);
+            animatorPersonaje.SetBool("EstaPared", true);
+            animatorPersonaje.SetBool("EstaTocandoPiso", false);
         }
     }
     private void OnDrawGizmosSelected()

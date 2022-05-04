@@ -165,6 +165,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1228,6 +1229,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesJerboLado_15: -7406567367943086816
+      spritesJerboLado_21: -3962224693474861317
+      spritesJerboLado_6: 7623585400286965460
+      spritesJerboLado_16: -3316835831597058266
+      spritesJerboLado_39: 5147446849517844616
+      spritesJerboLado_3: 1998943750558123345
+      spritesJerboLado_33: -2937311882030091557
+      spritesJerboLado_31: -7742072653613636870
+      spritesJerboLado_38: -8584333279099059692
+      spritesJerboLado_45: -5014439482036861438
+      spritesJerboLado_18: -3908989644179001038
+      spritesJerboLado_1: 6650262797541836623
+      spritesJerboLado_26: -387062828693749717
+      spritesJerboLado_44: 2072032101242161
+      spritesJerboLado_17: -3873169799380708316
+      spritesJerboLado_35: -553808278449817661
+      spritesJerboLado_14: -4275274873315166428
+      spritesJerboLado_40: 3044588456061338220
+      spritesJerboLado_37: -1448364346045111720
+      spritesJerboLado_0: 7703991099868065796
+      spritesJerboLado_25: -5085972310665501309
+      spritesJerboLado_34: -2208379602861240233
+      spritesJerboLado_7: 257439295200879453
+      spritesJerboLado_20: 4606037695079224654
+      spritesJerboLado_23: -5425181924987179847
+      spritesJerboLado_22: 4328657466962157423
+      spritesJerboLado_10: -7835013723128048869
+      spritesJerboLado_19: -5625143050367110704
+      spritesJerboLado_2: -8921625937782980788
+      spritesJerboLado_36: -4118714609210618682
+      spritesJerboLado_9: -7439441488810047165
+      spritesJerboLado_11: -7698020108170563959
+      spritesJerboLado_28: -215948593101447425
+      spritesJerboLado_41: -3664963690226423465
+      spritesJerboLado_13: 6128322796599441962
+      spritesJerboLado_5: -9163701096675864551
+      spritesJerboLado_27: 5150950577984234535
+      spritesJerboLado_46: -3477016366621537347
+      spritesJerboLado_32: -7094803634783065986
+      spritesJerboLado_24: 4733392155262887001
+      spritesJerboLado_42: 4444549260189271151
+      spritesJerboLado_30: 349055789285987634
+      spritesJerboLado_12: -1197663953393546332
+      spritesJerboLado_4: -3999365021528633117
+      spritesJerboLado_29: -1901742981522061800
+      spritesJerboLado_8: 938028326908023804
+      spritesJerboLado_43: -8774568819882426268
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
